@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+deploy-to-server:
+  stage: deploy
+  only:
+    - main
+  script:
+    - echo "bắt đầu quá trình deploy lên server..."
+    # Nếu gitlab-runner được cài trực tiếp trên server (Shell Executor)
+    - cd /home/project/idlegame-designdocs || exit
+    - git pull origin main
+    - npm install
+    - npm run build
+    - pm2 restart ecosystem.config.js --env production
+    - echo "deploy hoàn tất thành công"
+  tags:
+    - doc-server # Thay tag này bằng tag của gitlab-runner trên server của bạn

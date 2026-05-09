@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="vi" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-phu-luc/dewey-decimal" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Hệ Thống Phân Loại Dewey Decimal (DDC) | Hệ thống Quản lý Thư viện Trường học</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://library.edu.vn/img/favicon.ico"><meta data-rh="true" name="twitter:image" content="https://library.edu.vn/img/favicon.ico"><meta data-rh="true" property="og:url" content="https://library.edu.vn/docs/phu-luc/dewey-decimal"><meta data-rh="true" property="og:locale" content="vi"><meta data-rh="true" name="docusaurus_locale" content="vi"><meta data-rh="true" name="docsearch:language" content="vi"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Hệ Thống Phân Loại Dewey Decimal (DDC) | Hệ thống Quản lý Thư viện Trường học"><meta data-rh="true" name="description" content="Giới Thiệu"><meta data-rh="true" property="og:description" content="Giới Thiệu"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://library.edu.vn/docs/phu-luc/dewey-decimal"><link data-rh="true" rel="alternate" href="https://library.edu.vn/docs/phu-luc/dewey-decimal" hreflang="vi"><link data-rh="true" rel="alternate" href="https://library.edu.vn/docs/phu-luc/dewey-decimal" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hệ Thống Phân Loại Dewey Decimal (DDC)","item":"https://library.edu.vn/docs/phu-luc/dewey-decimal"}]}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.b405014d.css">
+<script src="/assets/js/runtime~main.fe28c9f0.js" defer="defer"></script>
+<script src="/assets/js/main.f406f57f.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Chuyển tới nội dung chính"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Chuyển tới nội dung chính</a></div><nav aria-label="Thanh điều hướng" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Đóng - mở thanh điều hướng" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">Quản lý Thư viện</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Tài liệu</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/kien-truc/tong-quan-kien-truc">Kiến trúc</a><a class="navbar__item navbar__link" href="/docs/chuc-nang/quan-ly-sach">Chức năng</a><a class="navbar__item navbar__link" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong">Phát triển</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Chuyển đổi chế độ sáng và tối (hiện tại là system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Trở lại đầu trang" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Thanh điều hướng tài liệu" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro"><span title="Giới thiệu hệ thống" class="linkLabel_WmDU">Giới thiệu hệ thống</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/tong-quan/tam-nhin-va-pham-vi"><span title="Tổng quan" class="categoryLinkLabel_W154">Tổng quan</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/tam-nhin-va-pham-vi"><span title="Tầm nhìn và Phạm vi Dự án" class="linkLabel_WmDU">Tầm nhìn và Phạm vi Dự án</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/nguoi-dung-va-vai-tro"><span title="Người dùng và Vai trò" class="linkLabel_WmDU">Người dùng và Vai trò</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/quy-dinh-nghiep-vu"><span title="Quy định Nghiệp vụ" class="linkLabel_WmDU">Quy định Nghiệp vụ</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/kien-truc/tong-quan-kien-truc"><span title="Kiến trúc hệ thống" class="categoryLinkLabel_W154">Kiến trúc hệ thống</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/tong-quan-kien-truc"><span title="Tổng quan kiến trúc" class="linkLabel_WmDU">Tổng quan kiến trúc</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/cong-nghe"><span title="Công nghệ sử dụng" class="linkLabel_WmDU">Công nghệ sử dụng</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/database-design"><span title="Thiết kế Database" class="linkLabel_WmDU">Thiết kế Database</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/bao-mat"><span title="Bảo mật và phân quyền" class="linkLabel_WmDU">Bảo mật và phân quyền</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/chuc-nang/quan-ly-sach"><span title="Chức năng" class="categoryLinkLabel_W154">Chức năng</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-sach"><span title="Quản lý sách" class="linkLabel_WmDU">Quản lý sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-nguoi-dung"><span title="Quản lý người dùng" class="linkLabel_WmDU">Quản lý người dùng</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/muon-tra-sach"><span title="Mượn và trả sách" class="linkLabel_WmDU">Mượn và trả sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/dat-truoc"><span title="Đặt trước sách" class="linkLabel_WmDU">Đặt trước sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-phat"><span title="Quản lý phí phạt" class="linkLabel_WmDU">Quản lý phí phạt</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/tim-kiem"><span title="Tìm Kiếm" class="linkLabel_WmDU">Tìm Kiếm</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/bao-cao"><span title="Báo cáo" class="linkLabel_WmDU">Báo cáo</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/thong-bao"><span title="Thông báo" class="linkLabel_WmDU">Thông báo</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/sao-luu"><span title="Sao lưu và phục hồi" class="linkLabel_WmDU">Sao lưu và phục hồi</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/giao-dien/thiet-ke-ui-ux"><span title="Giao diện" class="categoryLinkLabel_W154">Giao diện</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/thiet-ke-ui-ux"><span title="Thiết kế UI/UX" class="linkLabel_WmDU">Thiết kế UI/UX</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/man-hinh-chinh"><span title="Màn hình chính (Dashboard)" class="linkLabel_WmDU">Màn hình chính (Dashboard)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/man-hinh-theo-vai-tro"><span title="Màn hình theo vai trò" class="linkLabel_WmDU">Màn hình theo vai trò</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/so-do-thu-vien"><span title="Sơ đồ thư viện" class="linkLabel_WmDU">Sơ đồ thư viện</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/thiet-bi/ma-vach"><span title="Thiết bị" class="categoryLinkLabel_W154">Thiết bị</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/ma-vach"><span title="Tích hợp Máy Quét Mã Vạch" class="linkLabel_WmDU">Tích hợp Máy Quét Mã Vạch</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/in-an"><span title="Hệ thống In ấn Thư viện" class="linkLabel_WmDU">Hệ thống In ấn Thư viện</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/the-hoc-sinh"><span title="Quản lý Thẻ Thư viện Học sinh" class="linkLabel_WmDU">Quản lý Thẻ Thư viện Học sinh</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong"><span title="Hướng dẫn phát triển" class="categoryLinkLabel_W154">Hướng dẫn phát triển</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong"><span title="Cài Đặt Môi Trường Phát Triển" class="linkLabel_WmDU">Cài Đặt Môi Trường Phát Triển</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/cau-truc-du-an"><span title="Cấu Trúc Dự Án" class="linkLabel_WmDU">Cấu Trúc Dự Án</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/quy-tac-code"><span title="Quy Tắc Code" class="linkLabel_WmDU">Quy Tắc Code</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/testing"><span title="Testing" class="linkLabel_WmDU">Testing</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/trien-khai/build-va-package"><span title="Triển khai" class="categoryLinkLabel_W154">Triển khai</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/build-va-package"><span title="Build và Package" class="linkLabel_WmDU">Build và Package</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/cai-dat-lan-dau"><span title="Cài Đặt Lần Đầu" class="linkLabel_WmDU">Cài Đặt Lần Đầu</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/nang-cap"><span title="Nâng cấp hệ thống" class="linkLabel_WmDU">Nâng cấp hệ thống</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/phu-luc/dewey-decimal"><span title="Phụ lục" class="categoryLinkLabel_W154">Phụ lục</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/phu-luc/dewey-decimal"><span title="Hệ Thống Phân Loại Dewey Decimal (DDC)" class="linkLabel_WmDU">Hệ Thống Phân Loại Dewey Decimal (DDC)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/api-reference"><span title="API Reference - H? Th?ng Qu?n L� Thu Vi?n" class="linkLabel_WmDU">API Reference - H? Th?ng Qu?n L� Thu Vi?n</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/troubleshooting"><span title="Xử lý sự cố" class="linkLabel_WmDU">Xử lý sự cố</span></a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Liên kết điều hướng"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Trang chủ" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Phụ lục</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Hệ Thống Phân Loại Dewey Decimal (DDC)</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Trên trang này</button></div><div class="theme-doc-markdown markdown"><header><h1>Hệ Thống Phân Loại Dewey Decimal (DDC)</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="giới-thiệu">Giới Thiệu<a href="#giới-thiệu" class="hash-link" aria-label="Đường dẫn trực tiếp đến Giới Thiệu" title="Đường dẫn trực tiếp đến Giới Thiệu" translate="no">​</a></h2>
+<p>Hệ thống phân loại Dewey Decimal Classification (DDC) là hệ thống phân loại thư viện được sử dụng rộng rãi nhất trên thế giới, được phát triển bởi Melvil Dewey năm 1876. Hệ thống này chia toàn bộ tri thức nhân loại thành 10 lớp chính, mỗi lớp được chia nhỏ thành các phân lớp chi tiết hơn.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="đặc-điểm-chính">Đặc Điểm Chính<a href="#đặc-điểm-chính" class="hash-link" aria-label="Đường dẫn trực tiếp đến Đặc Điểm Chính" title="Đường dẫn trực tiếp đến Đặc Điểm Chính" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Hệ thập phân</strong>: Sử dụng số thập phân để phân loại</li>
+<li class=""><strong>Phân cấp</strong>: Từ tổng quát đến chi tiết</li>
+<li class=""><strong>Linh hoạt</strong>: Có thể mở rộng vô hạn</li>
+<li class=""><strong>Quốc tế</strong>: Được dịch sang nhiều ngôn ngữ</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-lớp-chính-000-900">10 Lớp Chính (000-900)<a href="#10-lớp-chính-000-900" class="hash-link" aria-label="Đường dẫn trực tiếp đến 10 Lớp Chính (000-900)" title="Đường dẫn trực tiếp đến 10 Lớp Chính (000-900)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="000---computer-science-information--general-works">000 - Computer Science, Information &amp; General Works<a href="#000---computer-science-information--general-works" class="hash-link" aria-label="Đường dẫn trực tiếp đến 000 - Computer Science, Information &amp; General Works" title="Đường dẫn trực tiếp đến 000 - Computer Science, Information &amp; General Works" translate="no">​</a></h3>
+<p>Khoa học máy tính, thông tin và tác phẩm tổng hợp</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>000-009</strong>: Khoa học máy tính, thông tin, tác phẩm tổng hợp</li>
+<li class=""><strong>010-019</strong>: Thư mục học</li>
+<li class=""><strong>020-029</strong>: Khoa học thư viện và thông tin</li>
+<li class=""><strong>030-039</strong>: Bách khoa toàn thư tổng hợp</li>
+<li class=""><strong>040-049</strong>: [Chưa phân bổ]</li>
+<li class=""><strong>050-059</strong>: Tạp chí, tập san tổng hợp</li>
+<li class=""><strong>060-069</strong>: Tổ chức và bảo tàng tổng hợp</li>
+<li class=""><strong>070-079</strong>: Báo chí, xuất bản</li>
+<li class=""><strong>080-089</strong>: Tuyển tập tổng hợp</li>
+<li class=""><strong>090-099</strong>: Bản thảo và sách quý hiếm</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">004: Xử lý dữ liệu, khoa học máy tính</li>
+<li class="">005: Lập trình máy tính</li>
+<li class="">025.04: Tìm kiếm thông tin</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="100---philosophy--psychology">100 - Philosophy &amp; Psychology<a href="#100---philosophy--psychology" class="hash-link" aria-label="Đường dẫn trực tiếp đến 100 - Philosophy &amp; Psychology" title="Đường dẫn trực tiếp đến 100 - Philosophy &amp; Psychology" translate="no">​</a></h3>
+<p>Triết học và tâm lý học</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>100-109</strong>: Triết học</li>
+<li class=""><strong>110-119</strong>: Siêu hình học</li>
+<li class=""><strong>120-129</strong>: Nhận thức luận</li>
+<li class=""><strong>130-139</strong>: Hiện tượng huyền bí, tâm linh</li>
+<li class=""><strong>140-149</strong>: Các trường phái triết học cụ thể</li>
+<li class=""><strong>150-159</strong>: Tâm lý học</li>
+<li class=""><strong>160-169</strong>: Logic học</li>
+<li class=""><strong>170-179</strong>: Đạo đức học (Triết học đạo đức)</li>
+<li class=""><strong>180-189</strong>: Triết học cổ đại, trung cổ, phương Đông</li>
+<li class=""><strong>190-199</strong>: Triết học phương Tây hiện đại</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">150: Tâm lý học</li>
+<li class="">152.4: Cảm xúc</li>
+<li class="">158: Tâm lý học ứng dụng</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="200---religion">200 - Religion<a href="#200---religion" class="hash-link" aria-label="Đường dẫn trực tiếp đến 200 - Religion" title="Đường dẫn trực tiếp đến 200 - Religion" translate="no">​</a></h3>
+<p>Tôn giáo</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>200-209</strong>: Tôn giáo</li>
+<li class=""><strong>210-219</strong>: Triết học và lý thuyết tôn giáo</li>
+<li class=""><strong>220-229</strong>: Kinh Thánh</li>
+<li class=""><strong>230-239</strong>: Thần học Cơ Đốc giáo</li>
+<li class=""><strong>240-249</strong>: Thần học đạo đức và tâm linh Cơ Đốc giáo</li>
+<li class=""><strong>250-259</strong>: Nhà thờ địa phương và tu viện Cơ Đốc giáo</li>
+<li class=""><strong>260-269</strong>: Thần học xã hội Cơ Đốc giáo</li>
+<li class=""><strong>270-279</strong>: Lịch sử Cơ Đốc giáo</li>
+<li class=""><strong>280-289</strong>: Các giáo phái và phái Cơ Đốc giáo</li>
+<li class=""><strong>290-299</strong>: Các tôn giáo khác</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">294.3: Phật giáo</li>
+<li class="">297: Hồi giáo</li>
+<li class="">299.5: Đạo giáo</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="300---social-sciences">300 - Social Sciences<a href="#300---social-sciences" class="hash-link" aria-label="Đường dẫn trực tiếp đến 300 - Social Sciences" title="Đường dẫn trực tiếp đến 300 - Social Sciences" translate="no">​</a></h3>
+<p>Khoa học xã hội</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>300-309</strong>: Khoa học xã hội</li>
+<li class=""><strong>310-319</strong>: Thống kê tổng hợp</li>
+<li class=""><strong>320-329</strong>: Khoa học chính trị</li>
+<li class=""><strong>330-339</strong>: Kinh tế học</li>
+<li class=""><strong>340-349</strong>: Luật pháp</li>
+<li class=""><strong>350-359</strong>: Hành chính công và khoa học quân sự</li>
+<li class=""><strong>360-369</strong>: Vấn đề và dịch vụ xã hội</li>
+<li class=""><strong>370-379</strong>: Giáo dục</li>
+<li class=""><strong>380-389</strong>: Thương mại, giao thông, truyền thông</li>
+<li class=""><strong>390-399</strong>: Phong tục, nghi lễ, văn hóa dân gian</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">370: Giáo dục</li>
+<li class="">371.3: Phương pháp giảng dạy</li>
+<li class="">372: Giáo dục tiểu học</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="400---language">400 - Language<a href="#400---language" class="hash-link" aria-label="Đường dẫn trực tiếp đến 400 - Language" title="Đường dẫn trực tiếp đến 400 - Language" translate="no">​</a></h3>
+<p>Ngôn ngữ</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>400-409</strong>: Ngôn ngữ học</li>
+<li class=""><strong>410-419</strong>: Ngôn ngữ học</li>
+<li class=""><strong>420-429</strong>: Tiếng Anh</li>
+<li class=""><strong>430-439</strong>: Tiếng Đức</li>
+<li class=""><strong>440-449</strong>: Tiếng Pháp</li>
+<li class=""><strong>450-459</strong>: Tiếng Ý</li>
+<li class=""><strong>460-469</strong>: Tiếng Tây Ban Nha và Bồ Đào Nha</li>
+<li class=""><strong>470-479</strong>: Tiếng Latin</li>
+<li class=""><strong>480-489</strong>: Tiếng Hy Lạp cổ điển</li>
+<li class=""><strong>490-499</strong>: Các ngôn ngữ khác</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">420: Tiếng Anh</li>
+<li class="">423: Từ điển tiếng Anh</li>
+<li class="">495.922: Tiếng Việt</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="500---science">500 - Science<a href="#500---science" class="hash-link" aria-label="Đường dẫn trực tiếp đến 500 - Science" title="Đường dẫn trực tiếp đến 500 - Science" translate="no">​</a></h3>
+<p>Khoa học tự nhiên</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>500-509</strong>: Khoa học tự nhiên</li>
+<li class=""><strong>510-519</strong>: Toán học</li>
+<li class=""><strong>520-529</strong>: Thiên văn học</li>
+<li class=""><strong>530-539</strong>: Vật lý học</li>
+<li class=""><strong>540-549</strong>: Hóa học</li>
+<li class=""><strong>550-559</strong>: Khoa học trái đất</li>
+<li class=""><strong>560-569</strong>: Cổ sinh vật học</li>
+<li class=""><strong>570-579</strong>: Sinh học</li>
+<li class=""><strong>580-589</strong>: Thực vật học</li>
+<li class=""><strong>590-599</strong>: Động vật học</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">510: Toán học</li>
+<li class="">530: Vật lý</li>
+<li class="">570: Sinh học</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="600---technology">600 - Technology<a href="#600---technology" class="hash-link" aria-label="Đường dẫn trực tiếp đến 600 - Technology" title="Đường dẫn trực tiếp đến 600 - Technology" translate="no">​</a></h3>
+<p>Công nghệ</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>600-609</strong>: Công nghệ</li>
+<li class=""><strong>610-619</strong>: Y học và sức khỏe</li>
+<li class=""><strong>620-629</strong>: Kỹ thuật</li>
+<li class=""><strong>630-639</strong>: Nông nghiệp</li>
+<li class=""><strong>640-649</strong>: Quản lý gia đình và đời sống</li>
+<li class=""><strong>650-659</strong>: Quản lý và dịch vụ phụ trợ</li>
+<li class=""><strong>660-669</strong>: Kỹ thuật hóa học</li>
+<li class=""><strong>670-679</strong>: Sản xuất</li>
+<li class=""><strong>680-689</strong>: Sản xuất cho các mục đích cụ thể</li>
+<li class=""><strong>690-699</strong>: Xây dựng</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">610: Y học</li>
+<li class="">641.5: Nấu ăn</li>
+<li class="">658: Quản lý doanh nghiệp</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="700---arts--recreation">700 - Arts &amp; Recreation<a href="#700---arts--recreation" class="hash-link" aria-label="Đường dẫn trực tiếp đến 700 - Arts &amp; Recreation" title="Đường dẫn trực tiếp đến 700 - Arts &amp; Recreation" translate="no">​</a></h3>
+<p>Nghệ thuật và giải trí</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>700-709</strong>: Nghệ thuật</li>
+<li class=""><strong>710-719</strong>: Quy hoạch đô thị và kiến trúc cảnh quan</li>
+<li class=""><strong>720-729</strong>: Kiến trúc</li>
+<li class=""><strong>730-739</strong>: Điêu khắc</li>
+<li class=""><strong>740-749</strong>: Vẽ và nghệ thuật trang trí</li>
+<li class=""><strong>750-759</strong>: Hội họa</li>
+<li class=""><strong>760-769</strong>: Nghệ thuật đồ họa</li>
+<li class=""><strong>770-779</strong>: Nhiếp ảnh</li>
+<li class=""><strong>780-789</strong>: Âm nhạc</li>
+<li class=""><strong>790-799</strong>: Giải trí và nghệ thuật biểu diễn</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">780: Âm nhạc</li>
+<li class="">790: Giải trí</li>
+<li class="">796.334: Bóng đá</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="800---literature">800 - Literature<a href="#800---literature" class="hash-link" aria-label="Đường dẫn trực tiếp đến 800 - Literature" title="Đường dẫn trực tiếp đến 800 - Literature" translate="no">​</a></h3>
+<p>Văn học</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>800-809</strong>: Văn học</li>
+<li class=""><strong>810-819</strong>: Văn học Mỹ</li>
+<li class=""><strong>820-829</strong>: Văn học Anh</li>
+<li class=""><strong>830-839</strong>: Văn học Đức</li>
+<li class=""><strong>840-849</strong>: Văn học Pháp</li>
+<li class=""><strong>850-859</strong>: Văn học Ý</li>
+<li class=""><strong>860-869</strong>: Văn học Tây Ban Nha và Bồ Đào Nha</li>
+<li class=""><strong>870-879</strong>: Văn học Latin</li>
+<li class=""><strong>880-889</strong>: Văn học Hy Lạp cổ điển</li>
+<li class=""><strong>890-899</strong>: Văn học các ngôn ngữ khác</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">895.92: Văn học Việt Nam</li>
+<li class="">895.922: Thơ Việt Nam</li>
+<li class="">895.923: Truyện ngắn Việt Nam</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="900---history--geography">900 - History &amp; Geography<a href="#900---history--geography" class="hash-link" aria-label="Đường dẫn trực tiếp đến 900 - History &amp; Geography" title="Đường dẫn trực tiếp đến 900 - History &amp; Geography" translate="no">​</a></h3>
+<p>Lịch sử và địa lý</p>
+<p><strong>Phân loại chi tiết:</strong></p>
+<ul>
+<li class=""><strong>900-909</strong>: Lịch sử</li>
+<li class=""><strong>910-919</strong>: Địa lý và du lịch</li>
+<li class=""><strong>920-929</strong>: Tiểu sử, phả hệ, huy hiệu</li>
+<li class=""><strong>930-939</strong>: Lịch sử thế giới cổ đại</li>
+<li class=""><strong>940-949</strong>: Lịch sử châu Âu</li>
+<li class=""><strong>950-959</strong>: Lịch sử châu Á</li>
+<li class=""><strong>960-969</strong>: Lịch sử châu Phi</li>
+<li class=""><strong>970-979</strong>: Lịch sử Bắc Mỹ</li>
+<li class=""><strong>980-989</strong>: Lịch sử Nam Mỹ</li>
+<li class=""><strong>990-999</strong>: Lịch sử các khu vực khác</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li class="">959.7: Lịch sử Việt Nam</li>
+<li class="">959.703: Lịch sử Việt Nam thời kỳ 1858-1945</li>
+<li class="">959.704: Lịch sử Việt Nam hiện đại</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bảng-phân-loại-chi-tiết-cho-thư-viện-trường-học">Bảng Phân Loại Chi Tiết Cho Thư Viện Trường Học<a href="#bảng-phân-loại-chi-tiết-cho-thư-viện-trường-học" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bảng Phân Loại Chi Tiết Cho Thư Viện Trường Học" title="Đường dẫn trực tiếp đến Bảng Phân Loại Chi Tiết Cho Thư Viện Trường Học" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="000---khoa-học-máy-tính--thông-tin">000 - Khoa Học Máy Tính &amp; Thông Tin<a href="#000---khoa-học-máy-tính--thông-tin" class="hash-link" aria-label="Đường dẫn trực tiếp đến 000 - Khoa Học Máy Tính &amp; Thông Tin" title="Đường dẫn trực tiếp đến 000 - Khoa Học Máy Tính &amp; Thông Tin" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>004</td><td>Khoa học máy tính</td><td>&quot;Lập trình cho trẻ em&quot;</td></tr><tr><td>005</td><td>Lập trình</td><td>&quot;Python cơ bản&quot;</td></tr><tr><td>020</td><td>Khoa học thư viện</td><td>&quot;Cách sử dụng thư viện&quot;</td></tr><tr><td>030</td><td>Bách khoa toàn thư</td><td>&quot;Bách khoa toàn thư thiếu nhi&quot;</td></tr><tr><td>070</td><td>Báo chí</td><td>&quot;Làm báo học đường&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="100---triết-học--tâm-lý">100 - Triết Học &amp; Tâm Lý<a href="#100---triết-học--tâm-lý" class="hash-link" aria-label="Đường dẫn trực tiếp đến 100 - Triết Học &amp; Tâm Lý" title="Đường dẫn trực tiếp đến 100 - Triết Học &amp; Tâm Lý" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>150</td><td>Tâm lý học</td><td>&quot;Hiểu về cảm xúc&quot;</td></tr><tr><td>152</td><td>Nhận thức</td><td>&quot;Trí nhớ và học tập&quot;</td></tr><tr><td>158</td><td>Tâm lý ứng dụng</td><td>&quot;Kỹ năng sống cho học sinh&quot;</td></tr><tr><td>170</td><td>Đạo đức</td><td>&quot;Đạo đức học đường&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="200---tôn-giáo">200 - Tôn Giáo<a href="#200---tôn-giáo" class="hash-link" aria-label="Đường dẫn trực tiếp đến 200 - Tôn Giáo" title="Đường dẫn trực tiếp đến 200 - Tôn Giáo" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>294.3</td><td>Phật giáo</td><td>&quot;Truyện Phật giáo cho thiếu nhi&quot;</td></tr><tr><td>297</td><td>Hồi giáo</td><td>&quot;Tìm hiểu Hồi giáo&quot;</td></tr><tr><td>299</td><td>Tôn giáo khác</td><td>&quot;Các tôn giáo trên thế giới&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="300---khoa-học-xã-hội">300 - Khoa Học Xã Hội<a href="#300---khoa-học-xã-hội" class="hash-link" aria-label="Đường dẫn trực tiếp đến 300 - Khoa Học Xã Hội" title="Đường dẫn trực tiếp đến 300 - Khoa Học Xã Hội" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>320</td><td>Chính trị</td><td>&quot;Chính phủ và công dân&quot;</td></tr><tr><td>330</td><td>Kinh tế</td><td>&quot;Kinh tế học cho trẻ em&quot;</td></tr><tr><td>370</td><td>Giáo dục</td><td>&quot;Phương pháp học tập hiệu quả&quot;</td></tr><tr><td>390</td><td>Phong tục</td><td>&quot;Tết Nguyên Đán Việt Nam&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="400---ngôn-ngữ">400 - Ngôn Ngữ<a href="#400---ngôn-ngữ" class="hash-link" aria-label="Đường dẫn trực tiếp đến 400 - Ngôn Ngữ" title="Đường dẫn trực tiếp đến 400 - Ngôn Ngữ" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>420</td><td>Tiếng Anh</td><td>&quot;English Grammar in Use&quot;</td></tr><tr><td>423</td><td>Từ điển Anh</td><td>&quot;Oxford Dictionary&quot;</td></tr><tr><td>495.922</td><td>Tiếng Việt</td><td>&quot;Ngữ pháp tiếng Việt&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="500---khoa-học-tự-nhiên">500 - Khoa Học Tự Nhiên<a href="#500---khoa-học-tự-nhiên" class="hash-link" aria-label="Đường dẫn trực tiếp đến 500 - Khoa Học Tự Nhiên" title="Đường dẫn trực tiếp đến 500 - Khoa Học Tự Nhiên" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>510</td><td>Toán học</td><td>&quot;Toán học vui&quot;</td></tr><tr><td>520</td><td>Thiên văn</td><td>&quot;Khám phá vũ trụ&quot;</td></tr><tr><td>530</td><td>Vật lý</td><td>&quot;Vật lý thú vị&quot;</td></tr><tr><td>540</td><td>Hóa học</td><td>&quot;Thí nghiệm hóa học đơn giản&quot;</td></tr><tr><td>570</td><td>Sinh học</td><td>&quot;Cơ thể người&quot;</td></tr><tr><td>580</td><td>Thực vật</td><td>&quot;Cây cỏ Việt Nam&quot;</td></tr><tr><td>590</td><td>Động vật</td><td>&quot;Động vật hoang dã&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="600---công-nghệ">600 - Công Nghệ<a href="#600---công-nghệ" class="hash-link" aria-label="Đường dẫn trực tiếp đến 600 - Công Nghệ" title="Đường dẫn trực tiếp đến 600 - Công Nghệ" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>610</td><td>Y học</td><td>&quot;Sức khỏe học đường&quot;</td></tr><tr><td>620</td><td>Kỹ thuật</td><td>&quot;Máy móc và công nghệ&quot;</td></tr><tr><td>630</td><td>Nông nghiệp</td><td>&quot;Trồng rau sạch&quot;</td></tr><tr><td>641.5</td><td>Nấu ăn</td><td>&quot;Nấu ăn cho trẻ&quot;</td></tr><tr><td>650</td><td>Quản lý</td><td>&quot;Kỹ năng lãnh đạo&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="700---nghệ-thuật--giải-trí">700 - Nghệ Thuật &amp; Giải Trí<a href="#700---nghệ-thuật--giải-trí" class="hash-link" aria-label="Đường dẫn trực tiếp đến 700 - Nghệ Thuật &amp; Giải Trí" title="Đường dẫn trực tiếp đến 700 - Nghệ Thuật &amp; Giải Trí" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>720</td><td>Kiến trúc</td><td>&quot;Kiến trúc Việt Nam&quot;</td></tr><tr><td>740</td><td>Vẽ</td><td>&quot;Học vẽ cơ bản&quot;</td></tr><tr><td>780</td><td>Âm nhạc</td><td>&quot;Lý thuyết âm nhạc&quot;</td></tr><tr><td>790</td><td>Giải trí</td><td>&quot;Trò chơi dân gian&quot;</td></tr><tr><td>796</td><td>Thể thao</td><td>&quot;Bóng đá cho trẻ em&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="800---văn-học">800 - Văn Học<a href="#800---văn-học" class="hash-link" aria-label="Đường dẫn trực tiếp đến 800 - Văn Học" title="Đường dẫn trực tiếp đến 800 - Văn Học" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>808</td><td>Tu từ học</td><td>&quot;Kỹ năng viết văn&quot;</td></tr><tr><td>820</td><td>Văn học Anh</td><td>&quot;Shakespeare cho thiếu nhi&quot;</td></tr><tr><td>895.922</td><td>Thơ Việt Nam</td><td>&quot;Thơ Xuân Diệu&quot;</td></tr><tr><td>895.923</td><td>Truyện ngắn VN</td><td>&quot;Truyện ngắn Nam Cao&quot;</td></tr><tr><td>895.9234</td><td>Tiểu thuyết VN</td><td>&quot;Số đỏ - Vũ Trọng Phụng&quot;</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="900---lịch-sử--địa-lý">900 - Lịch Sử &amp; Địa Lý<a href="#900---lịch-sử--địa-lý" class="hash-link" aria-label="Đường dẫn trực tiếp đến 900 - Lịch Sử &amp; Địa Lý" title="Đường dẫn trực tiếp đến 900 - Lịch Sử &amp; Địa Lý" translate="no">​</a></h3>
+<table><thead><tr><th>Mã số</th><th>Chủ đề</th><th>Ví dụ sách</th></tr></thead><tbody><tr><td>910</td><td>Địa lý</td><td>&quot;Bản đồ thế giới&quot;</td></tr><tr><td>920</td><td>Tiểu sử</td><td>&quot;Cuộc đời Hồ Chí Minh&quot;</td></tr><tr><td>940</td><td>Lịch sử châu Âu</td><td>&quot;Chiến tranh thế giới thứ 2&quot;</td></tr><tr><td>959.7</td><td>Lịch sử Việt Nam</td><td>&quot;Lịch sử Việt Nam&quot;</td></tr><tr><td>959.704</td><td>VN hiện đại</td><td>&quot;Kháng chiến chống Mỹ&quot;</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-phân-loại-sách-cụ-thể">Ví Dụ Phân Loại Sách Cụ Thể<a href="#ví-dụ-phân-loại-sách-cụ-thể" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví Dụ Phân Loại Sách Cụ Thể" title="Đường dẫn trực tiếp đến Ví Dụ Phân Loại Sách Cụ Thể" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-1-sách-toán-học">Ví Dụ 1: Sách Toán Học<a href="#ví-dụ-1-sách-toán-học" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví Dụ 1: Sách Toán Học" title="Đường dẫn trực tiếp đến Ví Dụ 1: Sách Toán Học" translate="no">​</a></h3>
+<p><strong>Tên sách:</strong> &quot;Toán học vui cho học sinh lớp 5&quot;</p>
+<p><strong>Phân tích:</strong></p>
+<ul>
+<li class="">Lớp chính: 500 (Khoa học tự nhiên)</li>
+<li class="">Phân lớp: 510 (Toán học)</li>
+<li class="">Chi tiết: 510.76 (Toán học - Giáo dục và nghiên cứu)</li>
+</ul>
+<p><strong>Mã DDC:</strong> <code>510.76</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-2-sách-lịch-sử-việt-nam">Ví Dụ 2: Sách Lịch Sử Việt Nam<a href="#ví-dụ-2-sách-lịch-sử-việt-nam" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví Dụ 2: Sách Lịch Sử Việt Nam" title="Đường dẫn trực tiếp đến Ví Dụ 2: Sách Lịch Sử Việt Nam" translate="no">​</a></h3>
+<p><strong>Tên sách:</strong> &quot;Lịch sử Việt Nam từ 1945 đến nay&quot;</p>
+<p><strong>Phân tích:</strong></p>
+<ul>
+<li class="">Lớp chính: 900 (Lịch sử và địa lý)</li>
+<li class="">Phân lớp: 959.7 (Lịch sử Việt Nam)</li>
+<li class="">Chi tiết: 959.704 (Việt Nam hiện đại, 1945-)</li>
+</ul>
+<p><strong>Mã DDC:</strong> <code>959.704</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-3-sách-văn-học-thiếu-nhi">Ví Dụ 3: Sách Văn Học Thiếu Nhi<a href="#ví-dụ-3-sách-văn-học-thiếu-nhi" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví Dụ 3: Sách Văn Học Thiếu Nhi" title="Đường dẫn trực tiếp đến Ví Dụ 3: Sách Văn Học Thiếu Nhi" translate="no">​</a></h3>
+<p><strong>Tên sách:</strong> &quot;Truyện cổ tích Việt Nam&quot;</p>
+<p><strong>Phân tích:</strong></p>
+<ul>
+<li class="">Lớp chính: 800 (Văn học)</li>
+<li class="">Phân lớp: 895.92 (Văn học Việt Nam)</li>
+<li class="">Chi tiết: 895.923 (Truyện ngắn Việt Nam)</li>
+<li class="">Thêm: 3 (Văn học thiếu nhi)</li>
+</ul>
+<p><strong>Mã DDC:</strong> <code>895.9233</code> hoặc <code>398.2</code> (Truyện dân gian)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-4-sách-khoa-học-máy-tính">Ví Dụ 4: Sách Khoa Học Máy Tính<a href="#ví-dụ-4-sách-khoa-học-máy-tính" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví Dụ 4: Sách Khoa Học Máy Tính" title="Đường dẫn trực tiếp đến Ví Dụ 4: Sách Khoa Học Máy Tính" translate="no">​</a></h3>
+<p><strong>Tên sách:</strong> &quot;Lập trình Python cho người mới bắt đầu&quot;</p>
+<p><strong>Phân tích:</strong></p>
+<ul>
+<li class="">Lớp chính: 000 (Khoa học máy tính)</li>
+<li class="">Phân lớp: 005 (Lập trình máy tính)</li>
+<li class="">Chi tiết: 005.133 (Ngôn ngữ lập trình cụ thể)</li>
+</ul>
+<p><strong>Mã DDC:</strong> <code>005.133</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-5-sách-thể-thao">Ví Dụ 5: Sách Thể Thao<a href="#ví-dụ-5-sách-thể-thao" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví Dụ 5: Sách Thể Thao" title="Đường dẫn trực tiếp đến Ví Dụ 5: Sách Thể Thao" translate="no">​</a></h3>
+<p><strong>Tên sách:</strong> &quot;Kỹ thuật chơi bóng đá cơ bản&quot;</p>
+<p><strong>Phân tích:</strong></p>
+<ul>
+<li class="">Lớp chính: 700 (Nghệ thuật và giải trí)</li>
+<li class="">Phân lớp: 796 (Thể thao)</li>
+<li class="">Chi tiết: 796.334 (Bóng đá)</li>
+</ul>
+<p><strong>Mã DDC:</strong> <code>796.334</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-6-sách-tiếng-anh">Ví Dụ 6: Sách Tiếng Anh<a href="#ví-dụ-6-sách-tiếng-anh" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví Dụ 6: Sách Tiếng Anh" title="Đường dẫn trực tiếp đến Ví Dụ 6: Sách Tiếng Anh" translate="no">​</a></h3>
+<p><strong>Tên sách:</strong> &quot;Oxford English Dictionary&quot;</p>
+<p><strong>Phân tích:</strong></p>
+<ul>
+<li class="">Lớp chính: 400 (Ngôn ngữ)</li>
+<li class="">Phân lớp: 420 (Tiếng Anh)</li>
+<li class="">Chi tiết: 423 (Từ điển tiếng Anh)</li>
+</ul>
+<p><strong>Mã DDC:</strong> <code>423</code></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cách-sử-dụng-trong-hệ-thống">Cách Sử Dụng Trong Hệ Thống<a href="#cách-sử-dụng-trong-hệ-thống" class="hash-link" aria-label="Đường dẫn trực tiếp đến Cách Sử Dụng Trong Hệ Thống" title="Đường dẫn trực tiếp đến Cách Sử Dụng Trong Hệ Thống" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-nhập-sách-mới">1. Nhập Sách Mới<a href="#1-nhập-sách-mới" class="hash-link" aria-label="Đường dẫn trực tiếp đến 1. Nhập Sách Mới" title="Đường dẫn trực tiếp đến 1. Nhập Sách Mới" translate="no">​</a></h3>
+<p>Khi nhập sách mới vào hệ thống:</p>
+<ol>
+<li class=""><strong>Xác định chủ đề chính</strong> của sách</li>
+<li class=""><strong>Tra cứu bảng DDC</strong> để tìm mã phù hợp</li>
+<li class=""><strong>Nhập mã DDC</strong> vào trường &quot;Mã phân loại&quot; trong form thêm sách</li>
+<li class="">Hệ thống sẽ tự động gợi ý mã DDC dựa trên từ khóa</li>
+</ol>
+<div class="language-typescript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-typescript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// Ví dụ trong hệ thống</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> book </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  title</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Toán học vui&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  deweyDecimal</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;510.76&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  category</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Khoa học tự nhiên&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  subcategory</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Toán học&quot;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-tìm-kiếm-sách">2. Tìm Kiếm Sách<a href="#2-tìm-kiếm-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến 2. Tìm Kiếm Sách" title="Đường dẫn trực tiếp đến 2. Tìm Kiếm Sách" translate="no">​</a></h3>
+<p>Người dùng có thể tìm sách theo:</p>
+<ul>
+<li class=""><strong>Mã DDC chính xác</strong>: <code>510.76</code></li>
+<li class=""><strong>Mã DDC tổng quát</strong>: <code>510</code> (tìm tất cả sách toán)</li>
+<li class=""><strong>Lớp chính</strong>: <code>500</code> (tìm tất cả sách khoa học)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-sắp-xếp-sách-trên-kệ">3. Sắp Xếp Sách Trên Kệ<a href="#3-sắp-xếp-sách-trên-kệ" class="hash-link" aria-label="Đường dẫn trực tiếp đến 3. Sắp Xếp Sách Trên Kệ" title="Đường dẫn trực tiếp đến 3. Sắp Xếp Sách Trên Kệ" translate="no">​</a></h3>
+<p>Sách được sắp xếp theo thứ tự:</p>
+<ol>
+<li class=""><strong>Mã DDC</strong> (từ nhỏ đến lớn)</li>
+<li class=""><strong>Tên tác giả</strong> (theo bảng chữ cái)</li>
+<li class=""><strong>Năm xuất bản</strong> (mới nhất trước)</li>
+</ol>
+<p>Ví dụ thứ tự trên kệ:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">510.1 - Toán học tổng quát</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">510.76 - Toán học giáo dục</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">512 - Đại số</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">515 - Giải tích</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">520 - Thiên văn học</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-in-nhãn-sách">4. In Nhãn Sách<a href="#4-in-nhãn-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến 4. In Nhãn Sách" title="Đường dẫn trực tiếp đến 4. In Nhãn Sách" translate="no">​</a></h3>
+<p>Nhãn sách bao gồm:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   510.76        │  ← Mã DDC</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   TOA           │  ← 3 chữ cái đầu tên sách</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   2024          │  ← Năm xuất bản</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────────┘</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-báo-cáo-thống-kê">5. Báo Cáo Thống Kê<a href="#5-báo-cáo-thống-kê" class="hash-link" aria-label="Đường dẫn trực tiếp đến 5. Báo Cáo Thống Kê" title="Đường dẫn trực tiếp đến 5. Báo Cáo Thống Kê" translate="no">​</a></h3>
+<p>Hệ thống có thể tạo báo cáo theo:</p>
+<ul>
+<li class=""><strong>Số lượng sách theo lớp DDC</strong></li>
+<li class=""><strong>Sách được mượn nhiều nhất theo DDC</strong></li>
+<li class=""><strong>Khoảng trống trong bộ sưu tập</strong> (lớp DDC chưa có sách)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-gợi-ý-mua-sách">6. Gợi Ý Mua Sách<a href="#6-gợi-ý-mua-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến 6. Gợi Ý Mua Sách" title="Đường dẫn trực tiếp đến 6. Gợi Ý Mua Sách" translate="no">​</a></h3>
+<p>Dựa trên phân tích DDC, hệ thống có thể:</p>
+<ul>
+<li class="">Xác định các lớp DDC thiếu sách</li>
+<li class="">Đề xuất mua sách để cân bằng bộ sưu tập</li>
+<li class="">So sánh với tiêu chuẩn thư viện trường học</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="lưu-ý-khi-sử-dụng">Lưu Ý Khi Sử Dụng<a href="#lưu-ý-khi-sử-dụng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lưu Ý Khi Sử Dụng" title="Đường dẫn trực tiếp đến Lưu Ý Khi Sử Dụng" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="nguyên-tắc-phân-loại">Nguyên Tắc Phân Loại<a href="#nguyên-tắc-phân-loại" class="hash-link" aria-label="Đường dẫn trực tiếp đến Nguyên Tắc Phân Loại" title="Đường dẫn trực tiếp đến Nguyên Tắc Phân Loại" translate="no">​</a></h3>
+<ol>
+<li class=""><strong>Chọn chủ đề chính</strong>: Nếu sách có nhiều chủ đề, chọn chủ đề chiếm nhiều nội dung nhất</li>
+<li class=""><strong>Cụ thể hóa</strong>: Sử dụng mã chi tiết nhất có thể (ví dụ: 796.334 thay vì 796)</li>
+<li class=""><strong>Nhất quán</strong>: Luôn phân loại cùng loại sách với cùng mã DDC</li>
+<li class=""><strong>Tham khảo</strong>: Khi không chắc chắn, tham khảo sách đã phân loại tương tự</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="trường-hợp-đặc-biệt">Trường Hợp Đặc Biệt<a href="#trường-hợp-đặc-biệt" class="hash-link" aria-label="Đường dẫn trực tiếp đến Trường Hợp Đặc Biệt" title="Đường dẫn trực tiếp đến Trường Hợp Đặc Biệt" translate="no">​</a></h3>
+<p><strong>Sách song ngữ:</strong></p>
+<ul>
+<li class="">Phân loại theo ngôn ngữ chính</li>
+<li class="">Ví dụ: Sách Anh-Việt → 420 (Tiếng Anh)</li>
+</ul>
+<p><strong>Sách tham khảo:</strong></p>
+<ul>
+<li class="">Thêm &quot;R&quot; trước mã DDC</li>
+<li class="">Ví dụ: R 423 (Từ điển tham khảo)</li>
+</ul>
+<p><strong>Sách giáo khoa:</strong></p>
+<ul>
+<li class="">Có thể thêm &quot;T&quot; trước mã DDC</li>
+<li class="">Ví dụ: T 510 (Sách giáo khoa Toán)</li>
+</ul>
+<p><strong>Truyện tranh:</strong></p>
+<ul>
+<li class="">Có thể sử dụng 741.5 (Truyện tranh)</li>
+<li class="">Hoặc phân loại theo nội dung</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bảng-tra-cứu-nhanh">Bảng Tra Cứu Nhanh<a href="#bảng-tra-cứu-nhanh" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bảng Tra Cứu Nhanh" title="Đường dẫn trực tiếp đến Bảng Tra Cứu Nhanh" translate="no">​</a></h3>
+<table><thead><tr><th>Nếu sách về...</th><th>Sử dụng mã</th></tr></thead><tbody><tr><td>Máy tính, công nghệ thông tin</td><td>004-006</td></tr><tr><td>Tâm lý học, kỹ năng sống</td><td>150-158</td></tr><tr><td>Giáo dục, học tập</td><td>370-379</td></tr><tr><td>Tiếng Anh</td><td>420-429</td></tr><tr><td>Toán học</td><td>510-519</td></tr><tr><td>Khoa học (vật lý, hóa, sinh)</td><td>530-590</td></tr><tr><td>Y học, sức khỏe</td><td>610-619</td></tr><tr><td>Nấu ăn</td><td>641.5</td></tr><tr><td>Nghệ thuật, vẽ</td><td>700-750</td></tr><tr><td>Âm nhạc</td><td>780-789</td></tr><tr><td>Thể thao</td><td>796</td></tr><tr><td>Văn học Việt Nam</td><td>895.92</td></tr><tr><td>Lịch sử Việt Nam</td><td>959.7</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tài-nguyên-tham-khảo">Tài Nguyên Tham Khảo<a href="#tài-nguyên-tham-khảo" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tài Nguyên Tham Khảo" title="Đường dẫn trực tiếp đến Tài Nguyên Tham Khảo" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="trang-web">Trang Web<a href="#trang-web" class="hash-link" aria-label="Đường dẫn trực tiếp đến Trang Web" title="Đường dẫn trực tiếp đến Trang Web" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>WebDewey</strong>: <a href="https://www.oclc.org/en/dewey.html" target="_blank" rel="noopener noreferrer" class="">https://www.oclc.org/en/dewey.html</a></li>
+<li class=""><strong>Dewey Services</strong>: <a href="https://www.oclc.org/en/dewey/features.html" target="_blank" rel="noopener noreferrer" class="">https://www.oclc.org/en/dewey/features.html</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sách-hướng-dẫn">Sách Hướng Dẫn<a href="#sách-hướng-dẫn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Sách Hướng Dẫn" title="Đường dẫn trực tiếp đến Sách Hướng Dẫn" translate="no">​</a></h3>
+<ul>
+<li class="">&quot;Dewey Decimal Classification and Relative Index&quot; (Phiên bản mới nhất)</li>
+<li class="">&quot;Abridged Dewey Decimal Classification&quot; (Phiên bản rút gọn cho thư viện nhỏ)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="hỗ-trợ">Hỗ Trợ<a href="#hỗ-trợ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Hỗ Trợ" title="Đường dẫn trực tiếp đến Hỗ Trợ" translate="no">​</a></h3>
+<ul>
+<li class="">Liên hệ thủ thư trưởng để được hướng dẫn chi tiết</li>
+<li class="">Tham gia khóa đào tạo về phân loại DDC</li>
+</ul>
+<hr>
+<p><strong>Lưu ý:</strong> Tài liệu này là hướng dẫn cơ bản về hệ thống DDC. Để phân loại chính xác, nên tham khảo bản đầy đủ của Dewey Decimal Classification hoặc tham vấn thủ thư chuyên nghiệp.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Trang tài liệu"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/trien-khai/nang-cap"><div class="pagination-nav__sublabel">Trước</div><div class="pagination-nav__label">Nâng cấp hệ thống</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/phu-luc/api-reference"><div class="pagination-nav__sublabel">Kế tiếp</div><div class="pagination-nav__label">API Reference - H? Th?ng Qu?n L� Thu Vi?n</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#giới-thiệu" class="table-of-contents__link toc-highlight">Giới Thiệu</a><ul><li><a href="#đặc-điểm-chính" class="table-of-contents__link toc-highlight">Đặc Điểm Chính</a></li></ul></li><li><a href="#10-lớp-chính-000-900" class="table-of-contents__link toc-highlight">10 Lớp Chính (000-900)</a><ul><li><a href="#000---computer-science-information--general-works" class="table-of-contents__link toc-highlight">000 - Computer Science, Information &amp; General Works</a></li><li><a href="#100---philosophy--psychology" class="table-of-contents__link toc-highlight">100 - Philosophy &amp; Psychology</a></li><li><a href="#200---religion" class="table-of-contents__link toc-highlight">200 - Religion</a></li><li><a href="#300---social-sciences" class="table-of-contents__link toc-highlight">300 - Social Sciences</a></li><li><a href="#400---language" class="table-of-contents__link toc-highlight">400 - Language</a></li><li><a href="#500---science" class="table-of-contents__link toc-highlight">500 - Science</a></li><li><a href="#600---technology" class="table-of-contents__link toc-highlight">600 - Technology</a></li><li><a href="#700---arts--recreation" class="table-of-contents__link toc-highlight">700 - Arts &amp; Recreation</a></li><li><a href="#800---literature" class="table-of-contents__link toc-highlight">800 - Literature</a></li><li><a href="#900---history--geography" class="table-of-contents__link toc-highlight">900 - History &amp; Geography</a></li></ul></li><li><a href="#bảng-phân-loại-chi-tiết-cho-thư-viện-trường-học" class="table-of-contents__link toc-highlight">Bảng Phân Loại Chi Tiết Cho Thư Viện Trường Học</a><ul><li><a href="#000---khoa-học-máy-tính--thông-tin" class="table-of-contents__link toc-highlight">000 - Khoa Học Máy Tính &amp; Thông Tin</a></li><li><a href="#100---triết-học--tâm-lý" class="table-of-contents__link toc-highlight">100 - Triết Học &amp; Tâm Lý</a></li><li><a href="#200---tôn-giáo" class="table-of-contents__link toc-highlight">200 - Tôn Giáo</a></li><li><a href="#300---khoa-học-xã-hội" class="table-of-contents__link toc-highlight">300 - Khoa Học Xã Hội</a></li><li><a href="#400---ngôn-ngữ" class="table-of-contents__link toc-highlight">400 - Ngôn Ngữ</a></li><li><a href="#500---khoa-học-tự-nhiên" class="table-of-contents__link toc-highlight">500 - Khoa Học Tự Nhiên</a></li><li><a href="#600---công-nghệ" class="table-of-contents__link toc-highlight">600 - Công Nghệ</a></li><li><a href="#700---nghệ-thuật--giải-trí" class="table-of-contents__link toc-highlight">700 - Nghệ Thuật &amp; Giải Trí</a></li><li><a href="#800---văn-học" class="table-of-contents__link toc-highlight">800 - Văn Học</a></li><li><a href="#900---lịch-sử--địa-lý" class="table-of-contents__link toc-highlight">900 - Lịch Sử &amp; Địa Lý</a></li></ul></li><li><a href="#ví-dụ-phân-loại-sách-cụ-thể" class="table-of-contents__link toc-highlight">Ví Dụ Phân Loại Sách Cụ Thể</a><ul><li><a href="#ví-dụ-1-sách-toán-học" class="table-of-contents__link toc-highlight">Ví Dụ 1: Sách Toán Học</a></li><li><a href="#ví-dụ-2-sách-lịch-sử-việt-nam" class="table-of-contents__link toc-highlight">Ví Dụ 2: Sách Lịch Sử Việt Nam</a></li><li><a href="#ví-dụ-3-sách-văn-học-thiếu-nhi" class="table-of-contents__link toc-highlight">Ví Dụ 3: Sách Văn Học Thiếu Nhi</a></li><li><a href="#ví-dụ-4-sách-khoa-học-máy-tính" class="table-of-contents__link toc-highlight">Ví Dụ 4: Sách Khoa Học Máy Tính</a></li><li><a href="#ví-dụ-5-sách-thể-thao" class="table-of-contents__link toc-highlight">Ví Dụ 5: Sách Thể Thao</a></li><li><a href="#ví-dụ-6-sách-tiếng-anh" class="table-of-contents__link toc-highlight">Ví Dụ 6: Sách Tiếng Anh</a></li></ul></li><li><a href="#cách-sử-dụng-trong-hệ-thống" class="table-of-contents__link toc-highlight">Cách Sử Dụng Trong Hệ Thống</a><ul><li><a href="#1-nhập-sách-mới" class="table-of-contents__link toc-highlight">1. Nhập Sách Mới</a></li><li><a href="#2-tìm-kiếm-sách" class="table-of-contents__link toc-highlight">2. Tìm Kiếm Sách</a></li><li><a href="#3-sắp-xếp-sách-trên-kệ" class="table-of-contents__link toc-highlight">3. Sắp Xếp Sách Trên Kệ</a></li><li><a href="#4-in-nhãn-sách" class="table-of-contents__link toc-highlight">4. In Nhãn Sách</a></li><li><a href="#5-báo-cáo-thống-kê" class="table-of-contents__link toc-highlight">5. Báo Cáo Thống Kê</a></li><li><a href="#6-gợi-ý-mua-sách" class="table-of-contents__link toc-highlight">6. Gợi Ý Mua Sách</a></li></ul></li><li><a href="#lưu-ý-khi-sử-dụng" class="table-of-contents__link toc-highlight">Lưu Ý Khi Sử Dụng</a><ul><li><a href="#nguyên-tắc-phân-loại" class="table-of-contents__link toc-highlight">Nguyên Tắc Phân Loại</a></li><li><a href="#trường-hợp-đặc-biệt" class="table-of-contents__link toc-highlight">Trường Hợp Đặc Biệt</a></li><li><a href="#bảng-tra-cứu-nhanh" class="table-of-contents__link toc-highlight">Bảng Tra Cứu Nhanh</a></li></ul></li><li><a href="#tài-nguyên-tham-khảo" class="table-of-contents__link toc-highlight">Tài Nguyên Tham Khảo</a><ul><li><a href="#trang-web" class="table-of-contents__link toc-highlight">Trang Web</a></li><li><a href="#sách-hướng-dẫn" class="table-of-contents__link toc-highlight">Sách Hướng Dẫn</a></li><li><a href="#hỗ-trợ" class="table-of-contents__link toc-highlight">Hỗ Trợ</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Điểm bắt đầu</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Tổng quan hệ thống</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/kien-truc/tong-quan-kien-truc">Kiến trúc tổng thể</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/chuc-nang/quan-ly-sach">Quản lý sách</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Nhóm tài liệu</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/chuc-nang/quan-ly-sach">Chức năng hệ thống</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/giao-dien/thiet-ke-ui-ux">Thiết kế giao diện</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong">Hướng dẫn phát triển</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Kỹ thuật</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/kien-truc/database-design">Thiết kế Database</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/thiet-bi/ma-vach">Tích hợp thiết bị</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/trien-khai/build-va-package">Triển khai</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Hệ thống Quản lý Thư viện Trường học</div></div></div></footer></div>
+</body>
+</html>

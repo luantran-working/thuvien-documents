@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="vi" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-trien-khai/cai-dat-lan-dau" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Cài Đặt Lần Đầu | Hệ thống Quản lý Thư viện Trường học</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://library.edu.vn/img/favicon.ico"><meta data-rh="true" name="twitter:image" content="https://library.edu.vn/img/favicon.ico"><meta data-rh="true" property="og:url" content="https://library.edu.vn/docs/trien-khai/cai-dat-lan-dau"><meta data-rh="true" property="og:locale" content="vi"><meta data-rh="true" name="docusaurus_locale" content="vi"><meta data-rh="true" name="docsearch:language" content="vi"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Cài Đặt Lần Đầu | Hệ thống Quản lý Thư viện Trường học"><meta data-rh="true" name="description" content="Hướng dẫn cài đặt và cấu hình hệ thống Quản Lý Thư Viện lần đầu tiên."><meta data-rh="true" property="og:description" content="Hướng dẫn cài đặt và cấu hình hệ thống Quản Lý Thư Viện lần đầu tiên."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://library.edu.vn/docs/trien-khai/cai-dat-lan-dau"><link data-rh="true" rel="alternate" href="https://library.edu.vn/docs/trien-khai/cai-dat-lan-dau" hreflang="vi"><link data-rh="true" rel="alternate" href="https://library.edu.vn/docs/trien-khai/cai-dat-lan-dau" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Cài Đặt Lần Đầu","item":"https://library.edu.vn/docs/trien-khai/cai-dat-lan-dau"}]}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.b405014d.css">
+<script src="/assets/js/runtime~main.fe28c9f0.js" defer="defer"></script>
+<script src="/assets/js/main.f406f57f.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Chuyển tới nội dung chính"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Chuyển tới nội dung chính</a></div><nav aria-label="Thanh điều hướng" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Đóng - mở thanh điều hướng" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">Quản lý Thư viện</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Tài liệu</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/kien-truc/tong-quan-kien-truc">Kiến trúc</a><a class="navbar__item navbar__link" href="/docs/chuc-nang/quan-ly-sach">Chức năng</a><a class="navbar__item navbar__link" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong">Phát triển</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Chuyển đổi chế độ sáng và tối (hiện tại là system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Trở lại đầu trang" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Thanh điều hướng tài liệu" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro"><span title="Giới thiệu hệ thống" class="linkLabel_WmDU">Giới thiệu hệ thống</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/tong-quan/tam-nhin-va-pham-vi"><span title="Tổng quan" class="categoryLinkLabel_W154">Tổng quan</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/tam-nhin-va-pham-vi"><span title="Tầm nhìn và Phạm vi Dự án" class="linkLabel_WmDU">Tầm nhìn và Phạm vi Dự án</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/nguoi-dung-va-vai-tro"><span title="Người dùng và Vai trò" class="linkLabel_WmDU">Người dùng và Vai trò</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/quy-dinh-nghiep-vu"><span title="Quy định Nghiệp vụ" class="linkLabel_WmDU">Quy định Nghiệp vụ</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/kien-truc/tong-quan-kien-truc"><span title="Kiến trúc hệ thống" class="categoryLinkLabel_W154">Kiến trúc hệ thống</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/tong-quan-kien-truc"><span title="Tổng quan kiến trúc" class="linkLabel_WmDU">Tổng quan kiến trúc</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/cong-nghe"><span title="Công nghệ sử dụng" class="linkLabel_WmDU">Công nghệ sử dụng</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/database-design"><span title="Thiết kế Database" class="linkLabel_WmDU">Thiết kế Database</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/bao-mat"><span title="Bảo mật và phân quyền" class="linkLabel_WmDU">Bảo mật và phân quyền</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/chuc-nang/quan-ly-sach"><span title="Chức năng" class="categoryLinkLabel_W154">Chức năng</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-sach"><span title="Quản lý sách" class="linkLabel_WmDU">Quản lý sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-nguoi-dung"><span title="Quản lý người dùng" class="linkLabel_WmDU">Quản lý người dùng</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/muon-tra-sach"><span title="Mượn và trả sách" class="linkLabel_WmDU">Mượn và trả sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/dat-truoc"><span title="Đặt trước sách" class="linkLabel_WmDU">Đặt trước sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-phat"><span title="Quản lý phí phạt" class="linkLabel_WmDU">Quản lý phí phạt</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/tim-kiem"><span title="Tìm Kiếm" class="linkLabel_WmDU">Tìm Kiếm</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/bao-cao"><span title="Báo cáo" class="linkLabel_WmDU">Báo cáo</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/thong-bao"><span title="Thông báo" class="linkLabel_WmDU">Thông báo</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/sao-luu"><span title="Sao lưu và phục hồi" class="linkLabel_WmDU">Sao lưu và phục hồi</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/giao-dien/thiet-ke-ui-ux"><span title="Giao diện" class="categoryLinkLabel_W154">Giao diện</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/thiet-ke-ui-ux"><span title="Thiết kế UI/UX" class="linkLabel_WmDU">Thiết kế UI/UX</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/man-hinh-chinh"><span title="Màn hình chính (Dashboard)" class="linkLabel_WmDU">Màn hình chính (Dashboard)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/man-hinh-theo-vai-tro"><span title="Màn hình theo vai trò" class="linkLabel_WmDU">Màn hình theo vai trò</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/so-do-thu-vien"><span title="Sơ đồ thư viện" class="linkLabel_WmDU">Sơ đồ thư viện</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/thiet-bi/ma-vach"><span title="Thiết bị" class="categoryLinkLabel_W154">Thiết bị</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/ma-vach"><span title="Tích hợp Máy Quét Mã Vạch" class="linkLabel_WmDU">Tích hợp Máy Quét Mã Vạch</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/in-an"><span title="Hệ thống In ấn Thư viện" class="linkLabel_WmDU">Hệ thống In ấn Thư viện</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/the-hoc-sinh"><span title="Quản lý Thẻ Thư viện Học sinh" class="linkLabel_WmDU">Quản lý Thẻ Thư viện Học sinh</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong"><span title="Hướng dẫn phát triển" class="categoryLinkLabel_W154">Hướng dẫn phát triển</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong"><span title="Cài Đặt Môi Trường Phát Triển" class="linkLabel_WmDU">Cài Đặt Môi Trường Phát Triển</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/cau-truc-du-an"><span title="Cấu Trúc Dự Án" class="linkLabel_WmDU">Cấu Trúc Dự Án</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/quy-tac-code"><span title="Quy Tắc Code" class="linkLabel_WmDU">Quy Tắc Code</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/testing"><span title="Testing" class="linkLabel_WmDU">Testing</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/trien-khai/build-va-package"><span title="Triển khai" class="categoryLinkLabel_W154">Triển khai</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/build-va-package"><span title="Build và Package" class="linkLabel_WmDU">Build và Package</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/trien-khai/cai-dat-lan-dau"><span title="Cài Đặt Lần Đầu" class="linkLabel_WmDU">Cài Đặt Lần Đầu</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/nang-cap"><span title="Nâng cấp hệ thống" class="linkLabel_WmDU">Nâng cấp hệ thống</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/phu-luc/dewey-decimal"><span title="Phụ lục" class="categoryLinkLabel_W154">Phụ lục</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/dewey-decimal"><span title="Hệ Thống Phân Loại Dewey Decimal (DDC)" class="linkLabel_WmDU">Hệ Thống Phân Loại Dewey Decimal (DDC)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/api-reference"><span title="API Reference - H? Th?ng Qu?n L� Thu Vi?n" class="linkLabel_WmDU">API Reference - H? Th?ng Qu?n L� Thu Vi?n</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/troubleshooting"><span title="Xử lý sự cố" class="linkLabel_WmDU">Xử lý sự cố</span></a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Liên kết điều hướng"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Trang chủ" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Triển khai</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Cài Đặt Lần Đầu</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Trên trang này</button></div><div class="theme-doc-markdown markdown"><header><h1>Cài Đặt Lần Đầu</h1></header>
+<p>Hướng dẫn cài đặt và cấu hình hệ thống Quản Lý Thư Viện lần đầu tiên.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="yêu-cầu-hệ-thống">Yêu Cầu Hệ Thống<a href="#yêu-cầu-hệ-thống" class="hash-link" aria-label="Đường dẫn trực tiếp đến Yêu Cầu Hệ Thống" title="Đường dẫn trực tiếp đến Yêu Cầu Hệ Thống" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phần-cứng-tối-thiểu">Phần cứng tối thiểu<a href="#phần-cứng-tối-thiểu" class="hash-link" aria-label="Đường dẫn trực tiếp đến Phần cứng tối thiểu" title="Đường dẫn trực tiếp đến Phần cứng tối thiểu" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>CPU:</strong> Intel Core i3 hoặc tương đương</li>
+<li class=""><strong>RAM:</strong> 4GB (khuyến nghị 8GB)</li>
+<li class=""><strong>Ổ cứng:</strong> 500MB dung lượng trống (khuyến nghị 2GB cho dữ liệu)</li>
+<li class=""><strong>Màn hình:</strong> Độ phân giải 1366x768 trở lên</li>
+<li class=""><strong>Kết nối:</strong> Cổng USB (cho máy quét mã vạch, máy in)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="hệ-điều-hành">Hệ điều hành<a href="#hệ-điều-hành" class="hash-link" aria-label="Đường dẫn trực tiếp đến Hệ điều hành" title="Đường dẫn trực tiếp đến Hệ điều hành" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Windows 10</strong> (64-bit) trở lên</li>
+<li class=""><strong>Windows 11</strong> (khuyến nghị)</li>
+<li class="">Windows Server 2016/2019/2022 (cho server)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phần-mềm-bổ-sung">Phần mềm bổ sung<a href="#phần-mềm-bổ-sung" class="hash-link" aria-label="Đường dẫn trực tiếp đến Phần mềm bổ sung" title="Đường dẫn trực tiếp đến Phần mềm bổ sung" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>.NET Framework 4.7.2</strong> trở lên (thường đã có sẵn)</li>
+<li class=""><strong>Visual C++ Redistributable</strong> (tự động cài khi cần)</li>
+<li class=""><strong>Microsoft Edge WebView2</strong> (tự động cài khi cần)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thiết-bị-ngoại-vi-tùy-chọn">Thiết bị ngoại vi (tùy chọn)<a href="#thiết-bị-ngoại-vi-tùy-chọn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thiết bị ngoại vi (tùy chọn)" title="Đường dẫn trực tiếp đến Thiết bị ngoại vi (tùy chọn)" translate="no">​</a></h3>
+<ul>
+<li class="">Máy quét mã vạch USB/Bluetooth</li>
+<li class="">Máy in thẻ thư viện</li>
+<li class="">Máy in hóa đơn/biên lai</li>
+<li class="">Webcam (cho chụp ảnh thẻ)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download-installer">Download Installer<a href="#download-installer" class="hash-link" aria-label="Đường dẫn trực tiếp đến Download Installer" title="Đường dẫn trực tiếp đến Download Installer" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tải-từ-website-chính-thức">Tải từ website chính thức<a href="#tải-từ-website-chính-thức" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tải từ website chính thức" title="Đường dẫn trực tiếp đến Tải từ website chính thức" translate="no">​</a></h3>
+<ol>
+<li class="">Truy cập: <a href="https://thuvien.example.com/download" target="_blank" rel="noopener noreferrer" class="">https://thuvien.example.com/download</a></li>
+<li class="">Chọn phiên bản phù hợp:<!-- -->
+<ul>
+<li class=""><strong>Windows 64-bit</strong> (khuyến nghị)</li>
+<li class=""><strong>Windows 32-bit</strong> (máy cũ)</li>
+</ul>
+</li>
+<li class="">Click <strong>Download</strong> và lưu file</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tải-từ-github-releases">Tải từ GitHub Releases<a href="#tải-từ-github-releases" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tải từ GitHub Releases" title="Đường dẫn trực tiếp đến Tải từ GitHub Releases" translate="no">​</a></h3>
+<ol>
+<li class="">Truy cập: <a href="https://github.com/your-org/thuvien-app/releases" target="_blank" rel="noopener noreferrer" class="">https://github.com/your-org/thuvien-app/releases</a></li>
+<li class="">Chọn phiên bản mới nhất (Latest)</li>
+<li class="">Download file <code>.exe</code>:<!-- -->
+<ul>
+<li class=""><code>Quản-Lý-Thư-Viện-1.0.0-x64.exe</code> (64-bit)</li>
+<li class=""><code>Quản-Lý-Thư-Viện-1.0.0-ia32.exe</code> (32-bit)</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kiểm-tra-file-tải-về">Kiểm tra file tải về<a href="#kiểm-tra-file-tải-về" class="hash-link" aria-label="Đường dẫn trực tiếp đến Kiểm tra file tải về" title="Đường dẫn trực tiếp đến Kiểm tra file tải về" translate="no">​</a></h3>
+<p>Kiểm tra checksum để đảm bảo file không bị lỗi:</p>
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Tính SHA256 checksum</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Get-FileHash &quot;Quản-Lý-Thư-Viện-1.0.0-x64.exe&quot; -Algorithm SHA256</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># So sánh với checksum trên website</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="chạy-installer">Chạy Installer<a href="#chạy-installer" class="hash-link" aria-label="Đường dẫn trực tiếp đến Chạy Installer" title="Đường dẫn trực tiếp đến Chạy Installer" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-1-khởi-chạy-installer">Bước 1: Khởi chạy installer<a href="#bước-1-khởi-chạy-installer" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 1: Khởi chạy installer" title="Đường dẫn trực tiếp đến Bước 1: Khởi chạy installer" translate="no">​</a></h3>
+<ol>
+<li class="">Double-click file <code>.exe</code> đã tải</li>
+<li class="">Nếu Windows SmartScreen cảnh báo:<!-- -->
+<ul>
+<li class="">Click <strong>More info</strong></li>
+<li class="">Click <strong>Run anyway</strong></li>
+</ul>
+</li>
+<li class="">Click <strong>Yes</strong> khi UAC hỏi quyền Administrator</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-2-chọn-ngôn-ngữ">Bước 2: Chọn ngôn ngữ<a href="#bước-2-chọn-ngôn-ngữ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 2: Chọn ngôn ngữ" title="Đường dẫn trực tiếp đến Bước 2: Chọn ngôn ngữ" translate="no">​</a></h3>
+<ul>
+<li class="">Chọn <strong>Tiếng Việt</strong> hoặc <strong>English</strong></li>
+<li class="">Click <strong>OK</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-3-đọc-license-agreement">Bước 3: Đọc License Agreement<a href="#bước-3-đọc-license-agreement" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 3: Đọc License Agreement" title="Đường dẫn trực tiếp đến Bước 3: Đọc License Agreement" translate="no">​</a></h3>
+<ul>
+<li class="">Đọc điều khoản sử dụng</li>
+<li class="">Check <strong>I accept the agreement</strong></li>
+<li class="">Click <strong>Next</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-4-chọn-thư-mục-cài-đặt">Bước 4: Chọn thư mục cài đặt<a href="#bước-4-chọn-thư-mục-cài-đặt" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 4: Chọn thư mục cài đặt" title="Đường dẫn trực tiếp đến Bước 4: Chọn thư mục cài đặt" translate="no">​</a></h3>
+<ul>
+<li class="">Mặc định: <code>C:\Program Files\Quản Lý Thư Viện</code></li>
+<li class="">Hoặc click <strong>Browse</strong> để chọn thư mục khác</li>
+<li class="">Click <strong>Next</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-5-chọn-components">Bước 5: Chọn components<a href="#bước-5-chọn-components" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 5: Chọn components" title="Đường dẫn trực tiếp đến Bước 5: Chọn components" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <strong>Ứng dụng chính</strong> (bắt buộc)</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <strong>Desktop shortcut</strong> (khuyến nghị)</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <strong>Start Menu shortcut</strong> (khuyến nghị)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Dữ liệu mẫu</strong> (cho demo/test)</li>
+<li class="">Click <strong>Next</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-6-cài-đặt">Bước 6: Cài đặt<a href="#bước-6-cài-đặt" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 6: Cài đặt" title="Đường dẫn trực tiếp đến Bước 6: Cài đặt" translate="no">​</a></h3>
+<ul>
+<li class="">Click <strong>Install</strong></li>
+<li class="">Đợi quá trình cài đặt (1-2 phút)</li>
+<li class="">Click <strong>Finish</strong> để hoàn tất</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-7-khởi-động-ứng-dụng">Bước 7: Khởi động ứng dụng<a href="#bước-7-khởi-động-ứng-dụng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 7: Khởi động ứng dụng" title="Đường dẫn trực tiếp đến Bước 7: Khởi động ứng dụng" translate="no">​</a></h3>
+<ul>
+<li class="">Check <strong>Launch Quản Lý Thư Viện</strong></li>
+<li class="">Click <strong>Finish</strong></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cấu-hình-lần-đầu">Cấu Hình Lần Đầu<a href="#cấu-hình-lần-đầu" class="hash-link" aria-label="Đường dẫn trực tiếp đến Cấu Hình Lần Đầu" title="Đường dẫn trực tiếp đến Cấu Hình Lần Đầu" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="màn-hình-chào-mừng">Màn hình chào mừng<a href="#màn-hình-chào-mừng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Màn hình chào mừng" title="Đường dẫn trực tiếp đến Màn hình chào mừng" translate="no">​</a></h3>
+<p>Khi khởi động lần đầu, wizard cấu hình sẽ xuất hiện.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-1-tạo-tài-khoản-admin">Bước 1: Tạo tài khoản Admin<a href="#bước-1-tạo-tài-khoản-admin" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 1: Tạo tài khoản Admin" title="Đường dẫn trực tiếp đến Bước 1: Tạo tài khoản Admin" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p><strong>Thông tin tài khoản:</strong></p>
+<ul>
+<li class="">Username: <code>admin</code> (mặc định, có thể đổi)</li>
+<li class="">Password: Nhập mật khẩu mạnh (tối thiểu 8 ký tự)</li>
+<li class="">Confirm Password: Nhập lại mật khẩu</li>
+<li class="">Email: <a href="mailto:admin@thuvien.example.com" target="_blank" rel="noopener noreferrer" class="">admin@thuvien.example.com</a></li>
+</ul>
+</li>
+<li class="">
+<p><strong>Thông tin cá nhân:</strong></p>
+<ul>
+<li class="">Họ và tên: Nguyễn Văn A</li>
+<li class="">Số điện thoại: 0123456789</li>
+<li class="">Chức vụ: Quản trị viên</li>
+</ul>
+</li>
+<li class="">
+<p>Click <strong>Tiếp tục</strong></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-2-cấu-hình-thông-tin-trường">Bước 2: Cấu hình thông tin trường<a href="#bước-2-cấu-hình-thông-tin-trường" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 2: Cấu hình thông tin trường" title="Đường dẫn trực tiếp đến Bước 2: Cấu hình thông tin trường" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p><strong>Thông tin cơ bản:</strong></p>
+<ul>
+<li class="">Tên trường: Trường THPT ABC</li>
+<li class="">Mã trường: THPT-ABC-001</li>
+<li class="">Địa chỉ: 123 Đường XYZ, Quận 1, TP.HCM</li>
+<li class="">Điện thoại: (028) 1234 5678</li>
+<li class="">Email: <a href="mailto:thuvien@thptabc.edu.vn" target="_blank" rel="noopener noreferrer" class="">thuvien@thptabc.edu.vn</a></li>
+<li class="">Website: <a href="https://thptabc.edu.vn" target="_blank" rel="noopener noreferrer" class="">https://thptabc.edu.vn</a></li>
+</ul>
+</li>
+<li class="">
+<p><strong>Logo trường:</strong></p>
+<ul>
+<li class="">Click <strong>Chọn file</strong> để upload logo</li>
+<li class="">Định dạng: PNG, JPG (khuyến nghị PNG trong suốt)</li>
+<li class="">Kích thước: 200x200px đến 500x500px</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Cấu hình thư viện:</strong></p>
+<ul>
+<li class="">Tên thư viện: Thư viện THPT ABC</li>
+<li class="">Giờ mở cửa: 7:00 - 17:00</li>
+<li class="">Ngày làm việc: Thứ 2 - Thứ 6</li>
+<li class="">Số lượng sách tối đa/độc giả: 5</li>
+<li class="">Thời gian mượn tối đa: 14 ngày</li>
+</ul>
+</li>
+<li class="">
+<p>Click <strong>Tiếp tục</strong></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-3-import-dữ-liệu-mẫu-tùy-chọn">Bước 3: Import dữ liệu mẫu (tùy chọn)<a href="#bước-3-import-dữ-liệu-mẫu-tùy-chọn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 3: Import dữ liệu mẫu (tùy chọn)" title="Đường dẫn trực tiếp đến Bước 3: Import dữ liệu mẫu (tùy chọn)" translate="no">​</a></h3>
+<p>Chọn một trong các tùy chọn:</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="option-1-bắt-đầu-với-dữ-liệu-trống">Option 1: Bắt đầu với dữ liệu trống<a href="#option-1-bắt-đầu-với-dữ-liệu-trống" class="hash-link" aria-label="Đường dẫn trực tiếp đến Option 1: Bắt đầu với dữ liệu trống" title="Đường dẫn trực tiếp đến Option 1: Bắt đầu với dữ liệu trống" translate="no">​</a></h4>
+<ul>
+<li class="">Chọn <strong>Bắt đầu mới</strong></li>
+<li class="">Database trống, tự nhập dữ liệu sau</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="option-2-import-dữ-liệu-mẫu">Option 2: Import dữ liệu mẫu<a href="#option-2-import-dữ-liệu-mẫu" class="hash-link" aria-label="Đường dẫn trực tiếp đến Option 2: Import dữ liệu mẫu" title="Đường dẫn trực tiếp đến Option 2: Import dữ liệu mẫu" translate="no">​</a></h4>
+<ul>
+<li class="">Chọn <strong>Import dữ liệu mẫu</strong></li>
+<li class="">Bao gồm:<!-- -->
+<ul>
+<li class="">100 sách mẫu</li>
+<li class="">50 độc giả mẫu</li>
+<li class="">20 giao dịch mẫu</li>
+<li class="">Các danh mục chuẩn</li>
+</ul>
+</li>
+<li class="">Dùng để test và làm quen hệ thống</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="option-3-import-từ-file-excel">Option 3: Import từ file Excel<a href="#option-3-import-từ-file-excel" class="hash-link" aria-label="Đường dẫn trực tiếp đến Option 3: Import từ file Excel" title="Đường dẫn trực tiếp đến Option 3: Import từ file Excel" translate="no">​</a></h4>
+<ul>
+<li class="">Chọn <strong>Import từ Excel</strong></li>
+<li class="">Chọn file Excel chứa dữ liệu</li>
+<li class="">Map các cột với trường trong hệ thống</li>
+<li class="">Xem preview và xác nhận</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="option-4-import-từ-hệ-thống-cũ">Option 4: Import từ hệ thống cũ<a href="#option-4-import-từ-hệ-thống-cũ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Option 4: Import từ hệ thống cũ" title="Đường dẫn trực tiếp đến Option 4: Import từ hệ thống cũ" translate="no">​</a></h4>
+<ul>
+<li class="">Chọn <strong>Import từ hệ thống cũ</strong></li>
+<li class="">Chọn loại hệ thống: OPAC, Koha, v.v.</li>
+<li class="">Chọn file backup/export</li>
+<li class="">Chuyển đổi và import dữ liệu</li>
+</ul>
+<p>Click <strong>Tiếp tục</strong></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bước-4-hoàn-tất-cấu-hình">Bước 4: Hoàn tất cấu hình<a href="#bước-4-hoàn-tất-cấu-hình" class="hash-link" aria-label="Đường dẫn trực tiếp đến Bước 4: Hoàn tất cấu hình" title="Đường dẫn trực tiếp đến Bước 4: Hoàn tất cấu hình" translate="no">​</a></h3>
+<ul>
+<li class="">Xem lại thông tin đã cấu hình</li>
+<li class="">Click <strong>Hoàn tất</strong> để lưu</li>
+<li class="">Hệ thống khởi tạo database và cấu hình</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="kết-nối-thiết-bị">Kết Nối Thiết Bị<a href="#kết-nối-thiết-bị" class="hash-link" aria-label="Đường dẫn trực tiếp đến Kết Nối Thiết Bị" title="Đường dẫn trực tiếp đến Kết Nối Thiết Bị" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="máy-quét-mã-vạch">Máy quét mã vạch<a href="#máy-quét-mã-vạch" class="hash-link" aria-label="Đường dẫn trực tiếp đến Máy quét mã vạch" title="Đường dẫn trực tiếp đến Máy quét mã vạch" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="kết-nối-usb">Kết nối USB<a href="#kết-nối-usb" class="hash-link" aria-label="Đường dẫn trực tiếp đến Kết nối USB" title="Đường dẫn trực tiếp đến Kết nối USB" translate="no">​</a></h4>
+<ol>
+<li class="">Cắm máy quét vào cổng USB</li>
+<li class="">Windows tự động cài driver</li>
+<li class="">Vào <strong>Cài đặt &gt; Thiết bị &gt; Máy quét</strong></li>
+<li class="">Click <strong>Tìm kiếm thiết bị</strong></li>
+<li class="">Chọn máy quét từ danh sách</li>
+<li class="">Click <strong>Kết nối</strong></li>
+<li class="">Test bằng cách quét mã vạch thử</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="kết-nối-bluetooth">Kết nối Bluetooth<a href="#kết-nối-bluetooth" class="hash-link" aria-label="Đường dẫn trực tiếp đến Kết nối Bluetooth" title="Đường dẫn trực tiếp đến Kết nối Bluetooth" translate="no">​</a></h4>
+<ol>
+<li class="">Bật Bluetooth trên máy quét</li>
+<li class="">Vào <strong>Windows Settings &gt; Bluetooth &amp; devices</strong></li>
+<li class="">Click <strong>Add device</strong></li>
+<li class="">Chọn máy quét từ danh sách</li>
+<li class="">Nhập PIN nếu yêu cầu (thường là 0000 hoặc 1234)</li>
+<li class="">Vào <strong>Cài đặt &gt; Thiết bị &gt; Máy quét</strong> trong app</li>
+<li class="">Chọn máy quét Bluetooth</li>
+<li class="">Click <strong>Kết nối</strong></li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="cấu-hình-máy-quét">Cấu hình máy quét<a href="#cấu-hình-máy-quét" class="hash-link" aria-label="Đường dẫn trực tiếp đến Cấu hình máy quét" title="Đường dẫn trực tiếp đến Cấu hình máy quét" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Chế độ quét:</strong> Continuous / Single scan</li>
+<li class=""><strong>Beep sound:</strong> Bật/Tắt</li>
+<li class=""><strong>Prefix/Suffix:</strong> Cấu hình ký tự đầu/cuối</li>
+<li class=""><strong>Enter key:</strong> Tự động Enter sau khi quét</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="máy-in-thẻ-thư-viện">Máy in thẻ thư viện<a href="#máy-in-thẻ-thư-viện" class="hash-link" aria-label="Đường dẫn trực tiếp đến Máy in thẻ thư viện" title="Đường dẫn trực tiếp đến Máy in thẻ thư viện" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="cài-đặt-driver">Cài đặt driver<a href="#cài-đặt-driver" class="hash-link" aria-label="Đường dẫn trực tiếp đến Cài đặt driver" title="Đường dẫn trực tiếp đến Cài đặt driver" translate="no">​</a></h4>
+<ol>
+<li class="">Download driver từ website nhà sản xuất</li>
+<li class="">Cài đặt driver</li>
+<li class="">Kết nối máy in qua USB</li>
+<li class="">Test print từ Windows</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="cấu-hình-trong-app">Cấu hình trong app<a href="#cấu-hình-trong-app" class="hash-link" aria-label="Đường dẫn trực tiếp đến Cấu hình trong app" title="Đường dẫn trực tiếp đến Cấu hình trong app" translate="no">​</a></h4>
+<ol>
+<li class="">Vào <strong>Cài đặt &gt; Thiết bị &gt; Máy in thẻ</strong></li>
+<li class="">Click <strong>Chọn máy in</strong></li>
+<li class="">Chọn máy in từ danh sách</li>
+<li class="">Cấu hình:<!-- -->
+<ul>
+<li class="">Kích thước thẻ: 85.6mm x 54mm (CR80)</li>
+<li class="">Orientation: Landscape</li>
+<li class="">Print quality: High</li>
+<li class="">Color mode: Color/Monochrome</li>
+</ul>
+</li>
+<li class="">Click <strong>Test Print</strong> để kiểm tra</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="thiết-kế-mẫu-thẻ">Thiết kế mẫu thẻ<a href="#thiết-kế-mẫu-thẻ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thiết kế mẫu thẻ" title="Đường dẫn trực tiếp đến Thiết kế mẫu thẻ" translate="no">​</a></h4>
+<ol>
+<li class="">Vào <strong>Quản lý &gt; Mẫu thẻ</strong></li>
+<li class="">Click <strong>Tạo mẫu mới</strong></li>
+<li class="">Kéo thả các trường:<!-- -->
+<ul>
+<li class="">Logo trường</li>
+<li class="">Ảnh độc giả</li>
+<li class="">Họ tên</li>
+<li class="">Mã độc giả</li>
+<li class="">Lớp</li>
+<li class="">Mã vạch</li>
+<li class="">Ngày hết hạn</li>
+</ul>
+</li>
+<li class="">Điều chỉnh vị trí, font, màu sắc</li>
+<li class="">Click <strong>Lưu mẫu</strong></li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="máy-in-hóa-đơn">Máy in hóa đơn<a href="#máy-in-hóa-đơn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Máy in hóa đơn" title="Đường dẫn trực tiếp đến Máy in hóa đơn" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="máy-in-nhiệt-thermal-printer">Máy in nhiệt (thermal printer)<a href="#máy-in-nhiệt-thermal-printer" class="hash-link" aria-label="Đường dẫn trực tiếp đến Máy in nhiệt (thermal printer)" title="Đường dẫn trực tiếp đến Máy in nhiệt (thermal printer)" translate="no">​</a></h4>
+<ol>
+<li class="">Kết nối máy in qua USB hoặc Ethernet</li>
+<li class="">Cài đặt driver</li>
+<li class="">Vào <strong>Cài đặt &gt; Thiết bị &gt; Máy in hóa đơn</strong></li>
+<li class="">Chọn máy in</li>
+<li class="">Cấu hình:<!-- -->
+<ul>
+<li class="">Khổ giấy: 80mm hoặc 58mm</li>
+<li class="">Tự động cắt giấy: Bật/Tắt</li>
+<li class="">Số bản in: 1 hoặc 2 (bản chính + bản lưu)</li>
+</ul>
+</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="thiết-kế-mẫu-hóa-đơn">Thiết kế mẫu hóa đơn<a href="#thiết-kế-mẫu-hóa-đơn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thiết kế mẫu hóa đơn" title="Đường dẫn trực tiếp đến Thiết kế mẫu hóa đơn" translate="no">​</a></h4>
+<ol>
+<li class="">Vào <strong>Quản lý &gt; Mẫu hóa đơn</strong></li>
+<li class="">Chỉnh sửa template:<!-- -->
+<ul>
+<li class="">Header: Logo, tên trường</li>
+<li class="">Thông tin giao dịch</li>
+<li class="">Danh sách sách mượn/trả</li>
+<li class="">Footer: Chữ ký, lưu ý</li>
+</ul>
+</li>
+<li class="">Preview và test print</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="webcam-chụp-ảnh-thẻ">Webcam (chụp ảnh thẻ)<a href="#webcam-chụp-ảnh-thẻ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Webcam (chụp ảnh thẻ)" title="Đường dẫn trực tiếp đến Webcam (chụp ảnh thẻ)" translate="no">​</a></h3>
+<ol>
+<li class="">Kết nối webcam qua USB</li>
+<li class="">Windows tự động nhận diện</li>
+<li class="">Vào <strong>Cài đặt &gt; Thiết bị &gt; Camera</strong></li>
+<li class="">Chọn camera từ danh sách</li>
+<li class="">Cấu hình:<!-- -->
+<ul>
+<li class="">Resolution: 640x480 hoặc cao hơn</li>
+<li class="">Auto focus: Bật</li>
+<li class="">Brightness/Contrast: Tự động</li>
+</ul>
+</li>
+<li class="">Test bằng cách chụp ảnh thử</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="kiểm-tra-hoạt-động">Kiểm Tra Hoạt Động<a href="#kiểm-tra-hoạt-động" class="hash-link" aria-label="Đường dẫn trực tiếp đến Kiểm Tra Hoạt Động" title="Đường dẫn trực tiếp đến Kiểm Tra Hoạt Động" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="checklist-kiểm-tra">Checklist kiểm tra<a href="#checklist-kiểm-tra" class="hash-link" aria-label="Đường dẫn trực tiếp đến Checklist kiểm tra" title="Đường dẫn trực tiếp đến Checklist kiểm tra" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Đăng nhập:</strong> Đăng nhập với tài khoản admin</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Thêm sách:</strong> Thêm 1 cuốn sách thử</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Thêm độc giả:</strong> Thêm 1 độc giả thử</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Quét mã vạch:</strong> Quét mã vạch sách</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Mượn sách:</strong> Tạo giao dịch mượn sách</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Trả sách:</strong> Tạo giao dịch trả sách</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>In thẻ:</strong> In thẻ độc giả thử</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>In hóa đơn:</strong> In hóa đơn mượn/trả</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Tìm kiếm:</strong> Tìm kiếm sách, độc giả</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Báo cáo:</strong> Xem báo cáo thống kê</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Backup:</strong> Tạo backup thử</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="test-các-chức-năng-chính">Test các chức năng chính<a href="#test-các-chức-năng-chính" class="hash-link" aria-label="Đường dẫn trực tiếp đến Test các chức năng chính" title="Đường dẫn trực tiếp đến Test các chức năng chính" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-quản-lý-sách">1. Quản lý sách<a href="#1-quản-lý-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến 1. Quản lý sách" title="Đường dẫn trực tiếp đến 1. Quản lý sách" translate="no">​</a></h4>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">1. Vào menu Sách &gt; Thêm sách mới</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Nhập thông tin sách</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Quét mã vạch hoặc nhập thủ công</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4. Upload ảnh bìa</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">5. Lưu</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">6. Tìm kiếm sách vừa thêm</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">7. Chỉnh sửa thông tin</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">8. Xóa sách (nếu cần)</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-quản-lý-độc-giả">2. Quản lý độc giả<a href="#2-quản-lý-độc-giả" class="hash-link" aria-label="Đường dẫn trực tiếp đến 2. Quản lý độc giả" title="Đường dẫn trực tiếp đến 2. Quản lý độc giả" translate="no">​</a></h4>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">1. Vào menu Độc giả &gt; Thêm độc giả</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Nhập thông tin cá nhân</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Chụp ảnh hoặc upload ảnh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4. Tạo mã độc giả tự động</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">5. In thẻ thư viện</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">6. Lưu</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-mượntrả-sách">3. Mượn/Trả sách<a href="#3-mượntrả-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến 3. Mượn/Trả sách" title="Đường dẫn trực tiếp đến 3. Mượn/Trả sách" translate="no">​</a></h4>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">1. Vào menu Giao dịch &gt; Mượn sách</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Quét thẻ độc giả</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Quét mã vạch sách (có thể quét nhiều cuốn)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4. Xác nhận mượn</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">5. In hóa đơn</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">6. Vào Giao dịch &gt; Trả sách</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">7. Quét thẻ độc giả hoặc mã sách</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">8. Xác nhận trả</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">9. Tính phí phạt (nếu trễ hạn)</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-báo-cáo">4. Báo cáo<a href="#4-báo-cáo" class="hash-link" aria-label="Đường dẫn trực tiếp đến 4. Báo cáo" title="Đường dẫn trực tiếp đến 4. Báo cáo" translate="no">​</a></h4>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">1. Vào menu Báo cáo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Chọn loại báo cáo:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   - Thống kê mượn/trả</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   - Top sách được mượn nhiều</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   - Độc giả tích cực</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   - Sách quá hạn</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Chọn khoảng thời gian</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4. Xem báo cáo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">5. Export Excel/PDF</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting-cài-đặt">Troubleshooting Cài Đặt<a href="#troubleshooting-cài-đặt" class="hash-link" aria-label="Đường dẫn trực tiếp đến Troubleshooting Cài Đặt" title="Đường dẫn trực tiếp đến Troubleshooting Cài Đặt" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lỗi-installation-failed">Lỗi: &quot;Installation failed&quot;<a href="#lỗi-installation-failed" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lỗi: &quot;Installation failed&quot;" title="Đường dẫn trực tiếp đến Lỗi: &quot;Installation failed&quot;" translate="no">​</a></h3>
+<p><strong>Nguyên nhân:</strong></p>
+<ul>
+<li class="">Không đủ quyền Administrator</li>
+<li class="">Antivirus chặn</li>
+<li class="">Ổ cứng đầy</li>
+</ul>
+<p><strong>Giải pháp:</strong></p>
+<ol>
+<li class="">Chạy installer với quyền Administrator (Right-click &gt; Run as administrator)</li>
+<li class="">Tạm tắt antivirus trong lúc cài</li>
+<li class="">Giải phóng dung lượng ổ cứng</li>
+<li class="">Thử cài vào thư mục khác</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lỗi-cannot-create-database">Lỗi: &quot;Cannot create database&quot;<a href="#lỗi-cannot-create-database" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lỗi: &quot;Cannot create database&quot;" title="Đường dẫn trực tiếp đến Lỗi: &quot;Cannot create database&quot;" translate="no">​</a></h3>
+<p><strong>Nguyên nhân:</strong></p>
+<ul>
+<li class="">Không có quyền ghi vào thư mục AppData</li>
+<li class="">Ổ cứng bị lỗi</li>
+</ul>
+<p><strong>Giải pháp:</strong></p>
+<ol>
+<li class="">Kiểm tra quyền thư mục: <code>%APPDATA%\ThuVien</code></li>
+<li class="">Chạy app với quyền Administrator</li>
+<li class="">Chạy <code>chkdsk</code> để kiểm tra ổ cứng</li>
+<li class="">Thử tạo database ở vị trí khác (Cài đặt &gt; Database &gt; Đổi vị trí)</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lỗi-port-already-in-use">Lỗi: &quot;Port already in use&quot;<a href="#lỗi-port-already-in-use" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lỗi: &quot;Port already in use&quot;" title="Đường dẫn trực tiếp đến Lỗi: &quot;Port already in use&quot;" translate="no">​</a></h3>
+<p><strong>Nguyên nhân:</strong></p>
+<ul>
+<li class="">Cổng mạng đã được ứng dụng khác sử dụng</li>
+</ul>
+<p><strong>Giải pháp:</strong></p>
+<ol>
+<li class="">Vào Cài đặt &gt; Mạng</li>
+<li class="">Đổi port sang số khác (ví dụ: 3001, 8080)</li>
+<li class="">Khởi động lại ứng dụng</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lỗi-máy-quét-không-hoạt-động">Lỗi: Máy quét không hoạt động<a href="#lỗi-máy-quét-không-hoạt-động" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lỗi: Máy quét không hoạt động" title="Đường dẫn trực tiếp đến Lỗi: Máy quét không hoạt động" translate="no">​</a></h3>
+<p><strong>Nguyên nhân:</strong></p>
+<ul>
+<li class="">Driver chưa cài</li>
+<li class="">Cổng USB lỗi</li>
+<li class="">Máy quét chưa được cấu hình</li>
+</ul>
+<p><strong>Giải pháp:</strong></p>
+<ol>
+<li class="">Kiểm tra Device Manager xem máy quét có được nhận diện không</li>
+<li class="">Cài đặt driver từ nhà sản xuất</li>
+<li class="">Thử cổng USB khác</li>
+<li class="">Vào Cài đặt &gt; Thiết bị &gt; Tìm kiếm lại</li>
+<li class="">Test máy quét với Notepad trước</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lỗi-máy-in-không-in-được">Lỗi: Máy in không in được<a href="#lỗi-máy-in-không-in-được" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lỗi: Máy in không in được" title="Đường dẫn trực tiếp đến Lỗi: Máy in không in được" translate="no">​</a></h3>
+<p><strong>Nguyên nhân:</strong></p>
+<ul>
+<li class="">Driver chưa cài</li>
+<li class="">Máy in offline</li>
+<li class="">Hết giấy/mực</li>
+</ul>
+<p><strong>Giải pháp:</strong></p>
+<ol>
+<li class="">Kiểm tra máy in trong Windows Settings</li>
+<li class="">Set máy in làm default printer</li>
+<li class="">Test print từ Windows trước</li>
+<li class="">Kiểm tra giấy, mực</li>
+<li class="">Khởi động lại máy in</li>
+<li class="">Cài đặt lại driver</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lỗi-ứng-dụng-chạy-chậm">Lỗi: Ứng dụng chạy chậm<a href="#lỗi-ứng-dụng-chạy-chậm" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lỗi: Ứng dụng chạy chậm" title="Đường dẫn trực tiếp đến Lỗi: Ứng dụng chạy chậm" translate="no">​</a></h3>
+<p><strong>Nguyên nhân:</strong></p>
+<ul>
+<li class="">RAM không đủ</li>
+<li class="">Database quá lớn</li>
+<li class="">Nhiều ứng dụng chạy nền</li>
+</ul>
+<p><strong>Giải pháp:</strong></p>
+<ol>
+<li class="">Đóng các ứng dụng không cần thiết</li>
+<li class="">Tăng RAM nếu có thể</li>
+<li class="">Optimize database: Cài đặt &gt; Bảo trì &gt; Tối ưu database</li>
+<li class="">Xóa dữ liệu cũ không cần thiết</li>
+<li class="">Backup và restore database</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lỗi-không-kết-nối-được-mạng">Lỗi: Không kết nối được mạng<a href="#lỗi-không-kết-nối-được-mạng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lỗi: Không kết nối được mạng" title="Đường dẫn trực tiếp đến Lỗi: Không kết nối được mạng" translate="no">​</a></h3>
+<p><strong>Nguyên nhân:</strong></p>
+<ul>
+<li class="">Firewall chặn</li>
+<li class="">Cấu hình mạng sai</li>
+</ul>
+<p><strong>Giải pháp:</strong></p>
+<ol>
+<li class="">Thêm exception cho app trong Windows Firewall</li>
+<li class="">Kiểm tra IP address và port</li>
+<li class="">Ping server để test kết nối</li>
+<li class="">Kiểm tra router/switch</li>
+<li class="">Tắt VPN nếu có</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="hỗ-trợ">Hỗ Trợ<a href="#hỗ-trợ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Hỗ Trợ" title="Đường dẫn trực tiếp đến Hỗ Trợ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tài-liệu">Tài liệu<a href="#tài-liệu" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tài liệu" title="Đường dẫn trực tiếp đến Tài liệu" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Hướng dẫn sử dụng:</strong> <a href="https://docs.thuvien.example.com" target="_blank" rel="noopener noreferrer" class="">https://docs.thuvien.example.com</a></li>
+<li class=""><strong>Video tutorials:</strong> <a href="https://youtube.com/thuvien-tutorials" target="_blank" rel="noopener noreferrer" class="">https://youtube.com/thuvien-tutorials</a></li>
+<li class=""><strong>FAQ:</strong> <a href="https://thuvien.example.com/faq" target="_blank" rel="noopener noreferrer" class="">https://thuvien.example.com/faq</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="liên-hệ">Liên hệ<a href="#liên-hệ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Liên hệ" title="Đường dẫn trực tiếp đến Liên hệ" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Email:</strong> <a href="mailto:support@thuvien.example.com" target="_blank" rel="noopener noreferrer" class="">support@thuvien.example.com</a></li>
+<li class=""><strong>Hotline:</strong> 1900-xxxx (8:00 - 17:00, T2-T6)</li>
+<li class=""><strong>Forum:</strong> <a href="https://forum.thuvien.example.com" target="_blank" rel="noopener noreferrer" class="">https://forum.thuvien.example.com</a></li>
+<li class=""><strong>Facebook:</strong> fb.com/thuvien.support</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="remote-support">Remote support<a href="#remote-support" class="hash-link" aria-label="Đường dẫn trực tiếp đến Remote support" title="Đường dẫn trực tiếp đến Remote support" translate="no">​</a></h3>
+<p>Nếu cần hỗ trợ từ xa:</p>
+<ol>
+<li class="">Cài đặt TeamViewer hoặc AnyDesk</li>
+<li class="">Liên hệ hotline để được hướng dẫn</li>
+<li class="">Cung cấp ID và password cho kỹ thuật viên</li>
+</ol></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Trang tài liệu"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/trien-khai/build-va-package"><div class="pagination-nav__sublabel">Trước</div><div class="pagination-nav__label">Build và Package</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/trien-khai/nang-cap"><div class="pagination-nav__sublabel">Kế tiếp</div><div class="pagination-nav__label">Nâng cấp hệ thống</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#yêu-cầu-hệ-thống" class="table-of-contents__link toc-highlight">Yêu Cầu Hệ Thống</a><ul><li><a href="#phần-cứng-tối-thiểu" class="table-of-contents__link toc-highlight">Phần cứng tối thiểu</a></li><li><a href="#hệ-điều-hành" class="table-of-contents__link toc-highlight">Hệ điều hành</a></li><li><a href="#phần-mềm-bổ-sung" class="table-of-contents__link toc-highlight">Phần mềm bổ sung</a></li><li><a href="#thiết-bị-ngoại-vi-tùy-chọn" class="table-of-contents__link toc-highlight">Thiết bị ngoại vi (tùy chọn)</a></li></ul></li><li><a href="#download-installer" class="table-of-contents__link toc-highlight">Download Installer</a><ul><li><a href="#tải-từ-website-chính-thức" class="table-of-contents__link toc-highlight">Tải từ website chính thức</a></li><li><a href="#tải-từ-github-releases" class="table-of-contents__link toc-highlight">Tải từ GitHub Releases</a></li><li><a href="#kiểm-tra-file-tải-về" class="table-of-contents__link toc-highlight">Kiểm tra file tải về</a></li></ul></li><li><a href="#chạy-installer" class="table-of-contents__link toc-highlight">Chạy Installer</a><ul><li><a href="#bước-1-khởi-chạy-installer" class="table-of-contents__link toc-highlight">Bước 1: Khởi chạy installer</a></li><li><a href="#bước-2-chọn-ngôn-ngữ" class="table-of-contents__link toc-highlight">Bước 2: Chọn ngôn ngữ</a></li><li><a href="#bước-3-đọc-license-agreement" class="table-of-contents__link toc-highlight">Bước 3: Đọc License Agreement</a></li><li><a href="#bước-4-chọn-thư-mục-cài-đặt" class="table-of-contents__link toc-highlight">Bước 4: Chọn thư mục cài đặt</a></li><li><a href="#bước-5-chọn-components" class="table-of-contents__link toc-highlight">Bước 5: Chọn components</a></li><li><a href="#bước-6-cài-đặt" class="table-of-contents__link toc-highlight">Bước 6: Cài đặt</a></li><li><a href="#bước-7-khởi-động-ứng-dụng" class="table-of-contents__link toc-highlight">Bước 7: Khởi động ứng dụng</a></li></ul></li><li><a href="#cấu-hình-lần-đầu" class="table-of-contents__link toc-highlight">Cấu Hình Lần Đầu</a><ul><li><a href="#màn-hình-chào-mừng" class="table-of-contents__link toc-highlight">Màn hình chào mừng</a></li><li><a href="#bước-1-tạo-tài-khoản-admin" class="table-of-contents__link toc-highlight">Bước 1: Tạo tài khoản Admin</a></li><li><a href="#bước-2-cấu-hình-thông-tin-trường" class="table-of-contents__link toc-highlight">Bước 2: Cấu hình thông tin trường</a></li><li><a href="#bước-3-import-dữ-liệu-mẫu-tùy-chọn" class="table-of-contents__link toc-highlight">Bước 3: Import dữ liệu mẫu (tùy chọn)</a></li><li><a href="#bước-4-hoàn-tất-cấu-hình" class="table-of-contents__link toc-highlight">Bước 4: Hoàn tất cấu hình</a></li></ul></li><li><a href="#kết-nối-thiết-bị" class="table-of-contents__link toc-highlight">Kết Nối Thiết Bị</a><ul><li><a href="#máy-quét-mã-vạch" class="table-of-contents__link toc-highlight">Máy quét mã vạch</a></li><li><a href="#máy-in-thẻ-thư-viện" class="table-of-contents__link toc-highlight">Máy in thẻ thư viện</a></li><li><a href="#máy-in-hóa-đơn" class="table-of-contents__link toc-highlight">Máy in hóa đơn</a></li><li><a href="#webcam-chụp-ảnh-thẻ" class="table-of-contents__link toc-highlight">Webcam (chụp ảnh thẻ)</a></li></ul></li><li><a href="#kiểm-tra-hoạt-động" class="table-of-contents__link toc-highlight">Kiểm Tra Hoạt Động</a><ul><li><a href="#checklist-kiểm-tra" class="table-of-contents__link toc-highlight">Checklist kiểm tra</a></li><li><a href="#test-các-chức-năng-chính" class="table-of-contents__link toc-highlight">Test các chức năng chính</a></li></ul></li><li><a href="#troubleshooting-cài-đặt" class="table-of-contents__link toc-highlight">Troubleshooting Cài Đặt</a><ul><li><a href="#lỗi-installation-failed" class="table-of-contents__link toc-highlight">Lỗi: &quot;Installation failed&quot;</a></li><li><a href="#lỗi-cannot-create-database" class="table-of-contents__link toc-highlight">Lỗi: &quot;Cannot create database&quot;</a></li><li><a href="#lỗi-port-already-in-use" class="table-of-contents__link toc-highlight">Lỗi: &quot;Port already in use&quot;</a></li><li><a href="#lỗi-máy-quét-không-hoạt-động" class="table-of-contents__link toc-highlight">Lỗi: Máy quét không hoạt động</a></li><li><a href="#lỗi-máy-in-không-in-được" class="table-of-contents__link toc-highlight">Lỗi: Máy in không in được</a></li><li><a href="#lỗi-ứng-dụng-chạy-chậm" class="table-of-contents__link toc-highlight">Lỗi: Ứng dụng chạy chậm</a></li><li><a href="#lỗi-không-kết-nối-được-mạng" class="table-of-contents__link toc-highlight">Lỗi: Không kết nối được mạng</a></li></ul></li><li><a href="#hỗ-trợ" class="table-of-contents__link toc-highlight">Hỗ Trợ</a><ul><li><a href="#tài-liệu" class="table-of-contents__link toc-highlight">Tài liệu</a></li><li><a href="#liên-hệ" class="table-of-contents__link toc-highlight">Liên hệ</a></li><li><a href="#remote-support" class="table-of-contents__link toc-highlight">Remote support</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Điểm bắt đầu</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Tổng quan hệ thống</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/kien-truc/tong-quan-kien-truc">Kiến trúc tổng thể</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/chuc-nang/quan-ly-sach">Quản lý sách</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Nhóm tài liệu</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/chuc-nang/quan-ly-sach">Chức năng hệ thống</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/giao-dien/thiet-ke-ui-ux">Thiết kế giao diện</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong">Hướng dẫn phát triển</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Kỹ thuật</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/kien-truc/database-design">Thiết kế Database</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/thiet-bi/ma-vach">Tích hợp thiết bị</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/trien-khai/build-va-package">Triển khai</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Hệ thống Quản lý Thư viện Trường học</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="vi" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-chuc-nang/quan-ly-sach" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Quản lý sách | Hệ thống Quản lý Thư viện Trường học</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://library.edu.vn/img/favicon.ico"><meta data-rh="true" name="twitter:image" content="https://library.edu.vn/img/favicon.ico"><meta data-rh="true" property="og:url" content="https://library.edu.vn/docs/chuc-nang/quan-ly-sach"><meta data-rh="true" property="og:locale" content="vi"><meta data-rh="true" name="docusaurus_locale" content="vi"><meta data-rh="true" name="docsearch:language" content="vi"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Quản lý sách | Hệ thống Quản lý Thư viện Trường học"><meta data-rh="true" name="description" content="Tổng quan"><meta data-rh="true" property="og:description" content="Tổng quan"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://library.edu.vn/docs/chuc-nang/quan-ly-sach"><link data-rh="true" rel="alternate" href="https://library.edu.vn/docs/chuc-nang/quan-ly-sach" hreflang="vi"><link data-rh="true" rel="alternate" href="https://library.edu.vn/docs/chuc-nang/quan-ly-sach" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Quản lý sách","item":"https://library.edu.vn/docs/chuc-nang/quan-ly-sach"}]}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.b405014d.css">
+<script src="/assets/js/runtime~main.fe28c9f0.js" defer="defer"></script>
+<script src="/assets/js/main.f406f57f.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Chuyển tới nội dung chính"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Chuyển tới nội dung chính</a></div><nav aria-label="Thanh điều hướng" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Đóng - mở thanh điều hướng" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">Quản lý Thư viện</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Tài liệu</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/kien-truc/tong-quan-kien-truc">Kiến trúc</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/chuc-nang/quan-ly-sach">Chức năng</a><a class="navbar__item navbar__link" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong">Phát triển</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Chuyển đổi chế độ sáng và tối (hiện tại là system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Trở lại đầu trang" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Thanh điều hướng tài liệu" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro"><span title="Giới thiệu hệ thống" class="linkLabel_WmDU">Giới thiệu hệ thống</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/tong-quan/tam-nhin-va-pham-vi"><span title="Tổng quan" class="categoryLinkLabel_W154">Tổng quan</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/tam-nhin-va-pham-vi"><span title="Tầm nhìn và Phạm vi Dự án" class="linkLabel_WmDU">Tầm nhìn và Phạm vi Dự án</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/nguoi-dung-va-vai-tro"><span title="Người dùng và Vai trò" class="linkLabel_WmDU">Người dùng và Vai trò</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tong-quan/quy-dinh-nghiep-vu"><span title="Quy định Nghiệp vụ" class="linkLabel_WmDU">Quy định Nghiệp vụ</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/kien-truc/tong-quan-kien-truc"><span title="Kiến trúc hệ thống" class="categoryLinkLabel_W154">Kiến trúc hệ thống</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/tong-quan-kien-truc"><span title="Tổng quan kiến trúc" class="linkLabel_WmDU">Tổng quan kiến trúc</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/cong-nghe"><span title="Công nghệ sử dụng" class="linkLabel_WmDU">Công nghệ sử dụng</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/database-design"><span title="Thiết kế Database" class="linkLabel_WmDU">Thiết kế Database</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/kien-truc/bao-mat"><span title="Bảo mật và phân quyền" class="linkLabel_WmDU">Bảo mật và phân quyền</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/chuc-nang/quan-ly-sach"><span title="Chức năng" class="categoryLinkLabel_W154">Chức năng</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/chuc-nang/quan-ly-sach"><span title="Quản lý sách" class="linkLabel_WmDU">Quản lý sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-nguoi-dung"><span title="Quản lý người dùng" class="linkLabel_WmDU">Quản lý người dùng</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/muon-tra-sach"><span title="Mượn và trả sách" class="linkLabel_WmDU">Mượn và trả sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/dat-truoc"><span title="Đặt trước sách" class="linkLabel_WmDU">Đặt trước sách</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/quan-ly-phat"><span title="Quản lý phí phạt" class="linkLabel_WmDU">Quản lý phí phạt</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/tim-kiem"><span title="Tìm Kiếm" class="linkLabel_WmDU">Tìm Kiếm</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/bao-cao"><span title="Báo cáo" class="linkLabel_WmDU">Báo cáo</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/thong-bao"><span title="Thông báo" class="linkLabel_WmDU">Thông báo</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/chuc-nang/sao-luu"><span title="Sao lưu và phục hồi" class="linkLabel_WmDU">Sao lưu và phục hồi</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/giao-dien/thiet-ke-ui-ux"><span title="Giao diện" class="categoryLinkLabel_W154">Giao diện</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/thiet-ke-ui-ux"><span title="Thiết kế UI/UX" class="linkLabel_WmDU">Thiết kế UI/UX</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/man-hinh-chinh"><span title="Màn hình chính (Dashboard)" class="linkLabel_WmDU">Màn hình chính (Dashboard)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/man-hinh-theo-vai-tro"><span title="Màn hình theo vai trò" class="linkLabel_WmDU">Màn hình theo vai trò</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/giao-dien/so-do-thu-vien"><span title="Sơ đồ thư viện" class="linkLabel_WmDU">Sơ đồ thư viện</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/thiet-bi/ma-vach"><span title="Thiết bị" class="categoryLinkLabel_W154">Thiết bị</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/ma-vach"><span title="Tích hợp Máy Quét Mã Vạch" class="linkLabel_WmDU">Tích hợp Máy Quét Mã Vạch</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/in-an"><span title="Hệ thống In ấn Thư viện" class="linkLabel_WmDU">Hệ thống In ấn Thư viện</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/thiet-bi/the-hoc-sinh"><span title="Quản lý Thẻ Thư viện Học sinh" class="linkLabel_WmDU">Quản lý Thẻ Thư viện Học sinh</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong"><span title="Hướng dẫn phát triển" class="categoryLinkLabel_W154">Hướng dẫn phát triển</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong"><span title="Cài Đặt Môi Trường Phát Triển" class="linkLabel_WmDU">Cài Đặt Môi Trường Phát Triển</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/cau-truc-du-an"><span title="Cấu Trúc Dự Án" class="linkLabel_WmDU">Cấu Trúc Dự Án</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/quy-tac-code"><span title="Quy Tắc Code" class="linkLabel_WmDU">Quy Tắc Code</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/huong-dan-phat-trien/testing"><span title="Testing" class="linkLabel_WmDU">Testing</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/trien-khai/build-va-package"><span title="Triển khai" class="categoryLinkLabel_W154">Triển khai</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/build-va-package"><span title="Build và Package" class="linkLabel_WmDU">Build và Package</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/cai-dat-lan-dau"><span title="Cài Đặt Lần Đầu" class="linkLabel_WmDU">Cài Đặt Lần Đầu</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/trien-khai/nang-cap"><span title="Nâng cấp hệ thống" class="linkLabel_WmDU">Nâng cấp hệ thống</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/docs/phu-luc/dewey-decimal"><span title="Phụ lục" class="categoryLinkLabel_W154">Phụ lục</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/dewey-decimal"><span title="Hệ Thống Phân Loại Dewey Decimal (DDC)" class="linkLabel_WmDU">Hệ Thống Phân Loại Dewey Decimal (DDC)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/api-reference"><span title="API Reference - H? Th?ng Qu?n L� Thu Vi?n" class="linkLabel_WmDU">API Reference - H? Th?ng Qu?n L� Thu Vi?n</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/phu-luc/troubleshooting"><span title="Xử lý sự cố" class="linkLabel_WmDU">Xử lý sự cố</span></a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Liên kết điều hướng"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Trang chủ" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Chức năng</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Quản lý sách</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Trên trang này</button></div><div class="theme-doc-markdown markdown"><header><h1>Quản lý sách</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tổng-quan">Tổng quan<a href="#tổng-quan" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tổng quan" title="Đường dẫn trực tiếp đến Tổng quan" translate="no">​</a></h2>
+<p>Module quản lý sách cung cấp đầy đủ chức năng để quản lý kho sách của thư viện, từ nhập sách, phân loại, đến theo dõi tình trạng và vị trí của từng bản sao.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="chức-năng-crud">Chức năng CRUD<a href="#chức-năng-crud" class="hash-link" aria-label="Đường dẫn trực tiếp đến Chức năng CRUD" title="Đường dẫn trực tiếp đến Chức năng CRUD" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thêm-sách-mới">Thêm sách mới<a href="#thêm-sách-mới" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thêm sách mới" title="Đường dẫn trực tiếp đến Thêm sách mới" translate="no">​</a></h3>
+<p><strong>Các phương thức nhập:</strong></p>
+<ol>
+<li class="">
+<p><strong>Nhập thủ công</strong></p>
+<ul>
+<li class="">Form nhập đầy đủ thông tin sách</li>
+<li class="">Validate dữ liệu đầu vào</li>
+<li class="">Upload ảnh bìa sách</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Quét ISBN (Tự động)</strong></p>
+<ul>
+<li class="">Quét mã ISBN bằng barcode scanner hoặc camera</li>
+<li class="">Tự động tra cứu thông tin từ API (Google Books, Open Library)</li>
+<li class="">Điền sẵn: Tên sách, tác giả, NXB, năm XB, thể loại, ảnh bìa, tóm tắt</li>
+<li class="">Cho phép chỉnh sửa trước khi lưu</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Import Excel</strong></p>
+<ul>
+<li class="">Tải template Excel mẫu</li>
+<li class="">Upload file Excel chứa danh sách sách</li>
+<li class="">Validate dữ liệu hàng loạt</li>
+<li class="">Hiển thị preview trước khi import</li>
+<li class="">Báo cáo lỗi chi tiết (dòng nào, lỗi gì)</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="xem-thông-tin-sách">Xem thông tin sách<a href="#xem-thông-tin-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến Xem thông tin sách" title="Đường dẫn trực tiếp đến Xem thông tin sách" translate="no">​</a></h3>
+<p><strong>Danh sách sách:</strong></p>
+<ul>
+<li class="">Hiển thị dạng bảng hoặc thẻ (card view)</li>
+<li class="">Tìm kiếm theo: Tên, tác giả, ISBN, thể loại, DDC</li>
+<li class="">Lọc theo: Thể loại, năm XB, NXB, tình trạng, vị trí</li>
+<li class="">Sắp xếp theo: Tên, tác giả, năm XB, ngày nhập</li>
+<li class="">Phân trang</li>
+</ul>
+<p><strong>Chi tiết sách:</strong></p>
+<ul>
+<li class="">Thông tin đầy đủ</li>
+<li class="">Danh sách các bản sao (copies)</li>
+<li class="">Lịch sử mượn trả</li>
+<li class="">Thống kê: Số lần mượn, đánh giá trung bình</li>
+<li class="">Người đang mượn (nếu có)</li>
+<li class="">Danh sách đặt trước (nếu có)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sửa-thông-tin-sách">Sửa thông tin sách<a href="#sửa-thông-tin-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến Sửa thông tin sách" title="Đường dẫn trực tiếp đến Sửa thông tin sách" translate="no">​</a></h3>
+<ul>
+<li class="">Chỉnh sửa mọi trường thông tin</li>
+<li class="">Lưu lịch sử thay đổi (audit log)</li>
+<li class="">Quyền hạn: Admin và Thủ thư</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="xóa-sách">Xóa sách<a href="#xóa-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến Xóa sách" title="Đường dẫn trực tiếp đến Xóa sách" translate="no">​</a></h3>
+<ul>
+<li class="">Xóa mềm (soft delete): Đánh dấu là đã xóa, không hiển thị</li>
+<li class="">Không cho phép xóa nếu:<!-- -->
+<ul>
+<li class="">Có bản sao đang được mượn</li>
+<li class="">Có người đặt trước</li>
+</ul>
+</li>
+<li class="">Có thể khôi phục sách đã xóa</li>
+<li class="">Xóa vĩnh viễn: Chỉ Admin, yêu cầu xác nhận</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thông-tin-sách">Thông tin sách<a href="#thông-tin-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thông tin sách" title="Đường dẫn trực tiếp đến Thông tin sách" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thông-tin-cơ-bản">Thông tin cơ bản<a href="#thông-tin-cơ-bản" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thông tin cơ bản" title="Đường dẫn trực tiếp đến Thông tin cơ bản" translate="no">​</a></h3>
+<table><thead><tr><th>Trường</th><th>Kiểu</th><th>Bắt buộc</th><th>Mô tả</th></tr></thead><tbody><tr><td>ISBN</td><td>String</td><td>Không</td><td>Mã ISBN-10 hoặc ISBN-13</td></tr><tr><td>Tên sách</td><td>String</td><td>Có</td><td>Tên đầy đủ của sách</td></tr><tr><td>Tác giả</td><td>String</td><td>Có</td><td>Tên tác giả (có thể nhiều tác giả)</td></tr><tr><td>Nhà xuất bản</td><td>String</td><td>Có</td><td>Tên NXB</td></tr><tr><td>Năm xuất bản</td><td>Integer</td><td>Có</td><td>Năm phát hành</td></tr><tr><td>Ngôn ngữ</td><td>String</td><td>Có</td><td>Tiếng Việt, English, etc.</td></tr><tr><td>Số trang</td><td>Integer</td><td>Không</td><td>Tổng số trang</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phân-loại">Phân loại<a href="#phân-loại" class="hash-link" aria-label="Đường dẫn trực tiếp đến Phân loại" title="Đường dẫn trực tiếp đến Phân loại" translate="no">​</a></h3>
+<table><thead><tr><th>Trường</th><th>Kiểu</th><th>Bắt buộc</th><th>Mô tả</th></tr></thead><tbody><tr><td>Thể loại</td><td>String</td><td>Có</td><td>Văn học, Khoa học, Lịch sử, etc.</td></tr><tr><td>DDC</td><td>String</td><td>Không</td><td>Mã phân loại Dewey Decimal</td></tr><tr><td>Từ khóa</td><td>Array</td><td>Không</td><td>Tags để tìm kiếm</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="vị-trí-và-số-lượng">Vị trí và số lượng<a href="#vị-trí-và-số-lượng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Vị trí và số lượng" title="Đường dẫn trực tiếp đến Vị trí và số lượng" translate="no">​</a></h3>
+<table><thead><tr><th>Trường</th><th>Kiểu</th><th>Bắt buộc</th><th>Mô tả</th></tr></thead><tbody><tr><td>Vị trí</td><td>String</td><td>Có</td><td>Kệ A1, Tủ B2, etc.</td></tr><tr><td>Tổng số bản</td><td>Integer</td><td>Có</td><td>Tổng số bản sao</td></tr><tr><td>Số bản có sẵn</td><td>Integer</td><td>Tự động</td><td>Số bản chưa mượn</td></tr><tr><td>Số bản đang mượn</td><td>Integer</td><td>Tự động</td><td>Số bản đang được mượn</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tình-trạng">Tình trạng<a href="#tình-trạng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tình trạng" title="Đường dẫn trực tiếp đến Tình trạng" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Có sẵn</strong>: Có ít nhất 1 bản có thể mượn</li>
+<li class=""><strong>Đang mượn hết</strong>: Tất cả bản đang được mượn</li>
+<li class=""><strong>Đang bảo trì</strong>: Tạm thời không cho mượn</li>
+<li class=""><strong>Mất/Hỏng</strong>: Đã mất hoặc hư hỏng</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="nội-dung-mở-rộng">Nội dung mở rộng<a href="#nội-dung-mở-rộng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Nội dung mở rộng" title="Đường dẫn trực tiếp đến Nội dung mở rộng" translate="no">​</a></h3>
+<table><thead><tr><th>Trường</th><th>Kiểu</th><th>Bắt buộc</th><th>Mô tả</th></tr></thead><tbody><tr><td>Ảnh bìa</td><td>File/URL</td><td>Không</td><td>Ảnh bìa sách</td></tr><tr><td>Tóm tắt</td><td>Text</td><td>Không</td><td>Nội dung tóm tắt</td></tr><tr><td>Mục lục</td><td>Text</td><td>Không</td><td>Danh sách chương</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quản-lý-bản-sao-copies">Quản lý bản sao (Copies)<a href="#quản-lý-bản-sao-copies" class="hash-link" aria-label="Đường dẫn trực tiếp đến Quản lý bản sao (Copies)" title="Đường dẫn trực tiếp đến Quản lý bản sao (Copies)" translate="no">​</a></h2>
+<p>Mỗi cuốn sách vật lý là một bản sao, có barcode riêng để quản lý.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thông-tin-bản-sao">Thông tin bản sao<a href="#thông-tin-bản-sao" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thông tin bản sao" title="Đường dẫn trực tiếp đến Thông tin bản sao" translate="no">​</a></h3>
+<table><thead><tr><th>Trường</th><th>Kiểu</th><th>Mô tả</th></tr></thead><tbody><tr><td>Barcode</td><td>String</td><td>Mã vạch duy nhất, dán lên sách</td></tr><tr><td>Số thứ tự</td><td>Integer</td><td>Bản số 1, 2, 3...</td></tr><tr><td>Tình trạng</td><td>Enum</td><td>Mới, Tốt, Cũ, Hỏng</td></tr><tr><td>Trạng thái</td><td>Enum</td><td>Có sẵn, Đang mượn, Bảo trì, Mất</td></tr><tr><td>Ngày nhập</td><td>Date</td><td>Ngày nhập vào thư viện</td></tr><tr><td>Nguồn gốc</td><td>Enum</td><td>Mua, Tặng, Trao đổi</td></tr><tr><td>Giá trị</td><td>Decimal</td><td>Giá trị sách (để tính phạt nếu mất)</td></tr><tr><td>Ghi chú</td><td>Text</td><td>Ghi chú về bản sao</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thao-tác-với-bản-sao">Thao tác với bản sao<a href="#thao-tác-với-bản-sao" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thao tác với bản sao" title="Đường dẫn trực tiếp đến Thao tác với bản sao" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p><strong>Thêm bản sao mới</strong></p>
+<ul>
+<li class="">Tạo barcode tự động hoặc nhập thủ công</li>
+<li class="">In tem barcode để dán lên sách</li>
+<li class="">Ghi nhận nguồn gốc và giá trị</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Cập nhật tình trạng</strong></p>
+<ul>
+<li class="">Đánh giá tình trạng vật lý: Mới → Tốt → Cũ → Hỏng</li>
+<li class="">Chuyển trạng thái: Có sẵn ↔ Bảo trì ↔ Mất</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Xóa bản sao</strong></p>
+<ul>
+<li class="">Chỉ xóa được khi không đang mượn</li>
+<li class="">Ghi nhận lý do: Mất, Hỏng không sửa được, Thanh lý</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Lịch sử bản sao</strong></p>
+<ul>
+<li class="">Lịch sử mượn trả</li>
+<li class="">Lịch sử thay đổi tình trạng</li>
+<li class="">Người mượn cuối cùng</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="phân-loại-dewey-decimal-classification-ddc">Phân loại Dewey Decimal Classification (DDC)<a href="#phân-loại-dewey-decimal-classification-ddc" class="hash-link" aria-label="Đường dẫn trực tiếp đến Phân loại Dewey Decimal Classification (DDC)" title="Đường dẫn trực tiếp đến Phân loại Dewey Decimal Classification (DDC)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="giới-thiệu">Giới thiệu<a href="#giới-thiệu" class="hash-link" aria-label="Đường dẫn trực tiếp đến Giới thiệu" title="Đường dẫn trực tiếp đến Giới thiệu" translate="no">​</a></h3>
+<p>DDC là hệ thống phân loại thư viện phổ biến nhất thế giới, chia kiến thức thành 10 lớp chính.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-lớp-chính">10 lớp chính<a href="#10-lớp-chính" class="hash-link" aria-label="Đường dẫn trực tiếp đến 10 lớp chính" title="Đường dẫn trực tiếp đến 10 lớp chính" translate="no">​</a></h3>
+<table><thead><tr><th>Mã</th><th>Lớp</th><th>Mô tả</th></tr></thead><tbody><tr><td>000</td><td>Khoa học máy tính &amp; Thông tin</td><td>Máy tính, Internet, Thư viện</td></tr><tr><td>100</td><td>Triết học &amp; Tâm lý học</td><td>Triết học, Tâm lý, Logic</td></tr><tr><td>200</td><td>Tôn giáo</td><td>Các tôn giáo, Thần thoại</td></tr><tr><td>300</td><td>Khoa học xã hội</td><td>Xã hội học, Chính trị, Kinh tế, Giáo dục</td></tr><tr><td>400</td><td>Ngôn ngữ</td><td>Ngôn ngữ học, Từ điển</td></tr><tr><td>500</td><td>Khoa học tự nhiên</td><td>Toán, Vật lý, Hóa học, Sinh học</td></tr><tr><td>600</td><td>Công nghệ</td><td>Y học, Kỹ thuật, Nông nghiệp</td></tr><tr><td>700</td><td>Nghệ thuật &amp; Giải trí</td><td>Hội họa, Âm nhạc, Thể thao</td></tr><tr><td>800</td><td>Văn học</td><td>Thơ, Tiểu thuyết, Kịch</td></tr><tr><td>900</td><td>Lịch sử &amp; Địa lý</td><td>Lịch sử, Địa lý, Tiểu sử</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="cách-sử-dụng">Cách sử dụng<a href="#cách-sử-dụng" class="hash-link" aria-label="Đường dẫn trực tiếp đến Cách sử dụng" title="Đường dẫn trực tiếp đến Cách sử dụng" translate="no">​</a></h3>
+<ol>
+<li class=""><strong>Tự động gợi ý</strong>: Khi nhập thể loại, hệ thống gợi ý mã DDC phù hợp</li>
+<li class=""><strong>Tìm kiếm theo DDC</strong>: Duyệt sách theo cây phân loại DDC</li>
+<li class=""><strong>In nhãn DDC</strong>: In nhãn dán lên gáy sách</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ví-dụ-phân-loại">Ví dụ phân loại<a href="#ví-dụ-phân-loại" class="hash-link" aria-label="Đường dẫn trực tiếp đến Ví dụ phân loại" title="Đường dẫn trực tiếp đến Ví dụ phân loại" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>004</strong>: Khoa học máy tính<!-- -->
+<ul>
+<li class=""><strong>004.6</strong>: Mạng máy tính</li>
+<li class=""><strong>004.67</strong>: Mạng diện rộng (Internet)</li>
+</ul>
+</li>
+<li class=""><strong>510</strong>: Toán học<!-- -->
+<ul>
+<li class=""><strong>512</strong>: Đại số</li>
+<li class=""><strong>516</strong>: Hình học</li>
+</ul>
+</li>
+<li class=""><strong>823</strong>: Văn học tiểu thuyết tiếng Anh<!-- -->
+<ul>
+<li class=""><strong>823.914</strong>: Tiểu thuyết thế kỷ 21</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="xuất-nhập-tồn">Xuất nhập tồn<a href="#xuất-nhập-tồn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Xuất nhập tồn" title="Đường dẫn trực tiếp đến Xuất nhập tồn" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="nhập-kho">Nhập kho<a href="#nhập-kho" class="hash-link" aria-label="Đường dẫn trực tiếp đến Nhập kho" title="Đường dẫn trực tiếp đến Nhập kho" translate="no">​</a></h3>
+<p><strong>Thông tin nhập:</strong></p>
+<ul>
+<li class="">Ngày nhập</li>
+<li class="">Nguồn gốc: Mua, Tặng, Trao đổi</li>
+<li class="">Nhà cung cấp (nếu mua)</li>
+<li class="">Người tặng (nếu tặng)</li>
+<li class="">Số lượng</li>
+<li class="">Giá trị (nếu mua)</li>
+<li class="">Hóa đơn/Chứng từ</li>
+</ul>
+<p><strong>Quy trình:</strong></p>
+<ol>
+<li class="">Tạo phiếu nhập kho</li>
+<li class="">Nhập thông tin sách (hoặc chọn sách có sẵn)</li>
+<li class="">Tạo bản sao với barcode</li>
+<li class="">In tem barcode</li>
+<li class="">Dán tem và xếp sách vào kệ</li>
+<li class="">Hoàn tất phiếu nhập</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="xuất-kho">Xuất kho<a href="#xuất-kho" class="hash-link" aria-label="Đường dẫn trực tiếp đến Xuất kho" title="Đường dẫn trực tiếp đến Xuất kho" translate="no">​</a></h3>
+<p><strong>Lý do xuất:</strong></p>
+<ul>
+<li class="">Thanh lý (sách cũ, hỏng)</li>
+<li class="">Tặng/Trao đổi</li>
+<li class="">Mất (không tìm thấy)</li>
+<li class="">Hỏng không sửa được</li>
+</ul>
+<p><strong>Quy trình:</strong></p>
+<ol>
+<li class="">Tạo phiếu xuất kho</li>
+<li class="">Chọn bản sao cần xuất</li>
+<li class="">Ghi rõ lý do</li>
+<li class="">Phê duyệt (Admin)</li>
+<li class="">Cập nhật trạng thái bản sao</li>
+<li class="">Hoàn tất phiếu xuất</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kiểm-kê">Kiểm kê<a href="#kiểm-kê" class="hash-link" aria-label="Đường dẫn trực tiếp đến Kiểm kê" title="Đường dẫn trực tiếp đến Kiểm kê" translate="no">​</a></h3>
+<p><strong>Mục đích:</strong></p>
+<ul>
+<li class="">Đối chiếu số liệu thực tế với hệ thống</li>
+<li class="">Phát hiện sách mất, hỏng</li>
+<li class="">Cập nhật tình trạng sách</li>
+</ul>
+<p><strong>Quy trình:</strong></p>
+<ol>
+<li class="">Tạo phiếu kiểm kê</li>
+<li class="">Quét barcode từng bản sao</li>
+<li class="">Hệ thống so sánh với dữ liệu</li>
+<li class="">Báo cáo: Thiếu, thừa, sai lệch</li>
+<li class="">Điều chỉnh dữ liệu</li>
+<li class="">Hoàn tất kiểm kê</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="báo-cáo-xuất-nhập-tồn">Báo cáo xuất nhập tồn<a href="#báo-cáo-xuất-nhập-tồn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Báo cáo xuất nhập tồn" title="Đường dẫn trực tiếp đến Báo cáo xuất nhập tồn" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Báo cáo nhập kho</strong>: Theo ngày, tháng, năm, nguồn gốc</li>
+<li class=""><strong>Báo cáo xuất kho</strong>: Theo lý do, thời gian</li>
+<li class=""><strong>Báo cáo tồn kho</strong>: Tổng số sách, theo thể loại, theo vị trí</li>
+<li class=""><strong>Báo cáo kiểm kê</strong>: Sách thiếu, sách thừa, sai lệch</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tìm-kiếm-và-lọc-nâng-cao">Tìm kiếm và lọc nâng cao<a href="#tìm-kiếm-và-lọc-nâng-cao" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tìm kiếm và lọc nâng cao" title="Đường dẫn trực tiếp đến Tìm kiếm và lọc nâng cao" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tìm-kiếm">Tìm kiếm<a href="#tìm-kiếm" class="hash-link" aria-label="Đường dẫn trực tiếp đến Tìm kiếm" title="Đường dẫn trực tiếp đến Tìm kiếm" translate="no">​</a></h3>
+<p><strong>Tìm kiếm đơn giản:</strong></p>
+<ul>
+<li class="">Tìm theo từ khóa trong: Tên sách, tác giả, ISBN, thể loại</li>
+</ul>
+<p><strong>Tìm kiếm nâng cao:</strong></p>
+<ul>
+<li class="">Kết hợp nhiều điều kiện</li>
+<li class="">Tìm theo khoảng (năm XB từ...đến...)</li>
+<li class="">Tìm theo DDC</li>
+<li class="">Tìm theo vị trí</li>
+<li class="">Tìm theo tình trạng</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lọc">Lọc<a href="#lọc" class="hash-link" aria-label="Đường dẫn trực tiếp đến Lọc" title="Đường dẫn trực tiếp đến Lọc" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Thể loại</strong>: Chọn một hoặc nhiều thể loại</li>
+<li class=""><strong>Năm xuất bản</strong>: Khoảng năm</li>
+<li class=""><strong>Nhà xuất bản</strong>: Chọn NXB</li>
+<li class=""><strong>Tình trạng</strong>: Có sẵn, Đang mượn hết, Bảo trì</li>
+<li class=""><strong>Vị trí</strong>: Kệ, tủ</li>
+<li class=""><strong>Ngôn ngữ</strong>: Tiếng Việt, English, etc.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sắp-xếp">Sắp xếp<a href="#sắp-xếp" class="hash-link" aria-label="Đường dẫn trực tiếp đến Sắp xếp" title="Đường dẫn trực tiếp đến Sắp xếp" translate="no">​</a></h3>
+<ul>
+<li class="">Tên sách (A-Z, Z-A)</li>
+<li class="">Tác giả (A-Z, Z-A)</li>
+<li class="">Năm xuất bản (Mới nhất, Cũ nhất)</li>
+<li class="">Ngày nhập (Mới nhất, Cũ nhất)</li>
+<li class="">Số lần mượn (Nhiều nhất, Ít nhất)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thống-kê-và-báo-cáo">Thống kê và báo cáo<a href="#thống-kê-và-báo-cáo" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thống kê và báo cáo" title="Đường dẫn trực tiếp đến Thống kê và báo cáo" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thống-kê-tổng-quan">Thống kê tổng quan<a href="#thống-kê-tổng-quan" class="hash-link" aria-label="Đường dẫn trực tiếp đến Thống kê tổng quan" title="Đường dẫn trực tiếp đến Thống kê tổng quan" translate="no">​</a></h3>
+<ul>
+<li class="">Tổng số đầu sách</li>
+<li class="">Tổng số bản sao</li>
+<li class="">Số sách có sẵn</li>
+<li class="">Số sách đang mượn</li>
+<li class="">Số sách bảo trì/mất</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="báo-cáo">Báo cáo<a href="#báo-cáo" class="hash-link" aria-label="Đường dẫn trực tiếp đến Báo cáo" title="Đường dẫn trực tiếp đến Báo cáo" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p><strong>Báo cáo theo thể loại</strong></p>
+<ul>
+<li class="">Số lượng sách theo từng thể loại</li>
+<li class="">Biểu đồ tròn phân bố</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Báo cáo sách phổ biến</strong></p>
+<ul>
+<li class="">Top 10/20/50 sách được mượn nhiều nhất</li>
+<li class="">Theo thời gian: Tháng, quý, năm</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Báo cáo sách ít được mượn</strong></p>
+<ul>
+<li class="">Sách chưa được mượn lần nào</li>
+<li class="">Sách không được mượn trong 6 tháng/1 năm</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Báo cáo sách mới</strong></p>
+<ul>
+<li class="">Sách nhập trong tháng/quý/năm</li>
+<li class="">Theo nguồn gốc</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Báo cáo tình trạng sách</strong></p>
+<ul>
+<li class="">Số sách theo tình trạng vật lý</li>
+<li class="">Sách cần bảo trì/thay thế</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quyền-hạn">Quyền hạn<a href="#quyền-hạn" class="hash-link" aria-label="Đường dẫn trực tiếp đến Quyền hạn" title="Đường dẫn trực tiếp đến Quyền hạn" translate="no">​</a></h2>
+<table><thead><tr><th>Chức năng</th><th>Admin</th><th>Thủ thư</th><th>Độc giả</th></tr></thead><tbody><tr><td>Xem danh sách sách</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>Xem chi tiết sách</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>Thêm sách mới</td><td>✓</td><td>✓</td><td>✗</td></tr><tr><td>Sửa thông tin sách</td><td>✓</td><td>✓</td><td>✗</td></tr><tr><td>Xóa sách</td><td>✓</td><td>✓</td><td>✗</td></tr><tr><td>Quản lý bản sao</td><td>✓</td><td>✓</td><td>✗</td></tr><tr><td>Nhập/Xuất kho</td><td>✓</td><td>✓</td><td>✗</td></tr><tr><td>Kiểm kê</td><td>✓</td><td>✓</td><td>✗</td></tr><tr><td>Xem báo cáo</td><td>✓</td><td>✓</td><td>✗</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="giao-diện">Giao diện<a href="#giao-diện" class="hash-link" aria-label="Đường dẫn trực tiếp đến Giao diện" title="Đường dẫn trực tiếp đến Giao diện" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="màn-hình-danh-sách">Màn hình danh sách<a href="#màn-hình-danh-sách" class="hash-link" aria-label="Đường dẫn trực tiếp đến Màn hình danh sách" title="Đường dẫn trực tiếp đến Màn hình danh sách" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────────────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Quản lý sách                                    [+ Thêm sách]│</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├─────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ [Tìm kiếm...]                    [Lọc ▼] [Sắp xếp ▼] [⚙️]   │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├─────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ ┌─────┬──────────────┬────────────┬──────┬─────────┬──────┐ │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │ Ảnh │ Tên sách     │ Tác giả    │ NXB  │ Có sẵn  │ ...  │ │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ ├─────┼──────────────┼────────────┼──────┼─────────┼──────┤ │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │ 📖  │ Dế Mèn...    │ Tô Hoài    │ NXB  │ 3/5     │ [&gt;]  │ │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │ 📖  │ Số đỏ        │ Vũ Trọng   │ NXB  │ 0/2     │ [&gt;]  │ │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ └─────┴──────────────┴────────────┴──────┴─────────┴──────┘ │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                          [1] [2] [3] ... [10]│</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────────────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="màn-hình-chi-tiết">Màn hình chi tiết<a href="#màn-hình-chi-tiết" class="hash-link" aria-label="Đường dẫn trực tiếp đến Màn hình chi tiết" title="Đường dẫn trực tiếp đến Màn hình chi tiết" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────────────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ [← Quay lại]                          [Sửa] [Xóa] [In QR]   │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├─────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ ┌─────────┐  Dế Mèn phưu lưu ký                             │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │         │  Tác giả: Tô Hoài                               │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │  [Ảnh]  │  NXB: Kim Đồng | Năm: 2020                      │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │  bìa    │  Thể loại: Văn học thiếu nhi                    │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │         │  DDC: 895.92234 | Vị trí: Kệ A1                 │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ └─────────┘  ISBN: 978-604-2-15234-5                        │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                                              │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Tóm tắt:                                                     │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Câu chuyện về chú dế mèn dũng cảm...                        │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                                              │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ ┌─ Bản sao (5) ────────────────────────────────────────────┐│</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │ Barcode      │ Tình trạng │ Trạng thái  │ Người mượn     ││</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │ BK001234     │ Tốt        │ Có sẵn      │ -              ││</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ │ BK001235     │ Tốt        │ Đang mượn   │ Nguyễn Văn A   ││</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ └──────────────────────────────────────────────────────────┘│</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                                              │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ [Tab: Lịch sử mượn] [Tab: Thống kê] [Tab: Đánh giá]        │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────────────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="luồng-nghiệp-vụ">Luồng nghiệp vụ<a href="#luồng-nghiệp-vụ" class="hash-link" aria-label="Đường dẫn trực tiếp đến Luồng nghiệp vụ" title="Đường dẫn trực tiếp đến Luồng nghiệp vụ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="luồng-nhập-sách-mới">Luồng nhập sách mới<a href="#luồng-nhập-sách-mới" class="hash-link" aria-label="Đường dẫn trực tiếp đến Luồng nhập sách mới" title="Đường dẫn trực tiếp đến Luồng nhập sách mới" translate="no">​</a></h3>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="luồng-quản-lý-bản-sao">Luồng quản lý bản sao<a href="#luồng-quản-lý-bản-sao" class="hash-link" aria-label="Đường dẫn trực tiếp đến Luồng quản lý bản sao" title="Đường dẫn trực tiếp đến Luồng quản lý bản sao" translate="no">​</a></h3>
+</div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Trang tài liệu"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/kien-truc/bao-mat"><div class="pagination-nav__sublabel">Trước</div><div class="pagination-nav__label">Bảo mật và phân quyền</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/chuc-nang/quan-ly-nguoi-dung"><div class="pagination-nav__sublabel">Kế tiếp</div><div class="pagination-nav__label">Quản lý người dùng</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#tổng-quan" class="table-of-contents__link toc-highlight">Tổng quan</a></li><li><a href="#chức-năng-crud" class="table-of-contents__link toc-highlight">Chức năng CRUD</a><ul><li><a href="#thêm-sách-mới" class="table-of-contents__link toc-highlight">Thêm sách mới</a></li><li><a href="#xem-thông-tin-sách" class="table-of-contents__link toc-highlight">Xem thông tin sách</a></li><li><a href="#sửa-thông-tin-sách" class="table-of-contents__link toc-highlight">Sửa thông tin sách</a></li><li><a href="#xóa-sách" class="table-of-contents__link toc-highlight">Xóa sách</a></li></ul></li><li><a href="#thông-tin-sách" class="table-of-contents__link toc-highlight">Thông tin sách</a><ul><li><a href="#thông-tin-cơ-bản" class="table-of-contents__link toc-highlight">Thông tin cơ bản</a></li><li><a href="#phân-loại" class="table-of-contents__link toc-highlight">Phân loại</a></li><li><a href="#vị-trí-và-số-lượng" class="table-of-contents__link toc-highlight">Vị trí và số lượng</a></li><li><a href="#tình-trạng" class="table-of-contents__link toc-highlight">Tình trạng</a></li><li><a href="#nội-dung-mở-rộng" class="table-of-contents__link toc-highlight">Nội dung mở rộng</a></li></ul></li><li><a href="#quản-lý-bản-sao-copies" class="table-of-contents__link toc-highlight">Quản lý bản sao (Copies)</a><ul><li><a href="#thông-tin-bản-sao" class="table-of-contents__link toc-highlight">Thông tin bản sao</a></li><li><a href="#thao-tác-với-bản-sao" class="table-of-contents__link toc-highlight">Thao tác với bản sao</a></li></ul></li><li><a href="#phân-loại-dewey-decimal-classification-ddc" class="table-of-contents__link toc-highlight">Phân loại Dewey Decimal Classification (DDC)</a><ul><li><a href="#giới-thiệu" class="table-of-contents__link toc-highlight">Giới thiệu</a></li><li><a href="#10-lớp-chính" class="table-of-contents__link toc-highlight">10 lớp chính</a></li><li><a href="#cách-sử-dụng" class="table-of-contents__link toc-highlight">Cách sử dụng</a></li><li><a href="#ví-dụ-phân-loại" class="table-of-contents__link toc-highlight">Ví dụ phân loại</a></li></ul></li><li><a href="#xuất-nhập-tồn" class="table-of-contents__link toc-highlight">Xuất nhập tồn</a><ul><li><a href="#nhập-kho" class="table-of-contents__link toc-highlight">Nhập kho</a></li><li><a href="#xuất-kho" class="table-of-contents__link toc-highlight">Xuất kho</a></li><li><a href="#kiểm-kê" class="table-of-contents__link toc-highlight">Kiểm kê</a></li><li><a href="#báo-cáo-xuất-nhập-tồn" class="table-of-contents__link toc-highlight">Báo cáo xuất nhập tồn</a></li></ul></li><li><a href="#tìm-kiếm-và-lọc-nâng-cao" class="table-of-contents__link toc-highlight">Tìm kiếm và lọc nâng cao</a><ul><li><a href="#tìm-kiếm" class="table-of-contents__link toc-highlight">Tìm kiếm</a></li><li><a href="#lọc" class="table-of-contents__link toc-highlight">Lọc</a></li><li><a href="#sắp-xếp" class="table-of-contents__link toc-highlight">Sắp xếp</a></li></ul></li><li><a href="#thống-kê-và-báo-cáo" class="table-of-contents__link toc-highlight">Thống kê và báo cáo</a><ul><li><a href="#thống-kê-tổng-quan" class="table-of-contents__link toc-highlight">Thống kê tổng quan</a></li><li><a href="#báo-cáo" class="table-of-contents__link toc-highlight">Báo cáo</a></li></ul></li><li><a href="#quyền-hạn" class="table-of-contents__link toc-highlight">Quyền hạn</a></li><li><a href="#giao-diện" class="table-of-contents__link toc-highlight">Giao diện</a><ul><li><a href="#màn-hình-danh-sách" class="table-of-contents__link toc-highlight">Màn hình danh sách</a></li><li><a href="#màn-hình-chi-tiết" class="table-of-contents__link toc-highlight">Màn hình chi tiết</a></li></ul></li><li><a href="#luồng-nghiệp-vụ" class="table-of-contents__link toc-highlight">Luồng nghiệp vụ</a><ul><li><a href="#luồng-nhập-sách-mới" class="table-of-contents__link toc-highlight">Luồng nhập sách mới</a></li><li><a href="#luồng-quản-lý-bản-sao" class="table-of-contents__link toc-highlight">Luồng quản lý bản sao</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Điểm bắt đầu</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Tổng quan hệ thống</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/kien-truc/tong-quan-kien-truc">Kiến trúc tổng thể</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/chuc-nang/quan-ly-sach">Quản lý sách</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Nhóm tài liệu</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/chuc-nang/quan-ly-sach">Chức năng hệ thống</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/giao-dien/thiet-ke-ui-ux">Thiết kế giao diện</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/huong-dan-phat-trien/cai-dat-moi-truong">Hướng dẫn phát triển</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Kỹ thuật</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/kien-truc/database-design">Thiết kế Database</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/thiet-bi/ma-vach">Tích hợp thiết bị</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/trien-khai/build-va-package">Triển khai</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Hệ thống Quản lý Thư viện Trường học</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+> idlegame-designdocs@0.0.0 build
+> docusaurus build
+
+[WARNING] The `siteConfig.onBrokenMarkdownLinks` config option is deprecated and will be removed in Docusaurus v4.
+Please migrate and move this option to `siteConfig.markdown.hooks.onBrokenMarkdownLinks` instead.
+[INFO] [en] Creating an optimized production build...
+[WARNING] The `siteConfig.onBrokenMarkdownLinks` config option is deprecated and will be removed in Docusaurus v4.
+Please migrate and move this option to `siteConfig.markdown.hooks.onBrokenMarkdownLinks` instead.
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Server: Compiled with some errors in 12.83s
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\admin\Documents\SourceCode2025\idlegame-designdocs\node_modules\@docusaurus\mdx-loader\lib\index.js??ruleSet[1].rules[8].use[0]!C:\Users\admin\Documents\SourceCode2025\idlegame-designdocs\docs\bang-can-bang-kinh-te.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Client: Compiled with some errors in 17.88s
+[ERROR] Client bundle compiled with errors therefore further build is impossible.
+Error: MDX compilation failed for file "C:\Users\admin\Documents\SourceCode2025\idlegame-designdocs\docs\bang-can-bang-kinh-te.md"
+Cause: Unexpected character `3` (U+0033) before name, expected a character that can start a name, such as a letter, `$`, or `_`
+Details:
+{
+  "column": 24,
+  "file": "",
+  "message": "Unexpected character `3` (U+0033) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "line": 197,
+  "name": "197:24",
+  "place": {
+    "_bufferIndex": 1,
+    "_index": 0,
+    "line": 197,
+    "column": 24,
+    "offset": 8002
+  },
+  "reason": "Unexpected character `3` (U+0033) before name, expected a character that can start a name, such as a letter, `$`, or `_`",
+  "ruleId": "unexpected-character",
+  "source": "micromark-extension-mdx-jsx",
+  "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+}

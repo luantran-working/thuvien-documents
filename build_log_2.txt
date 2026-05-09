@@ -1,0 +1,15 @@
+
+> idlegame-designdocs@0.0.0 build
+> docusaurus build
+
+[WARNING] The `siteConfig.onBrokenMarkdownLinks` config option is deprecated and will be removed in Docusaurus v4.
+Please migrate and move this option to `siteConfig.markdown.hooks.onBrokenMarkdownLinks` instead.
+[INFO] [en] Creating an optimized production build...
+[WARNING] The `siteConfig.onBrokenMarkdownLinks` config option is deprecated and will be removed in Docusaurus v4.
+Please migrate and move this option to `siteConfig.markdown.hooks.onBrokenMarkdownLinks` instead.
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Server: Compiled successfully in 12.27s
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Client: Compiled successfully in 17.69s
+[SUCCESS] Generated static files in "build".
+[INFO] Use `npm run serve` command to test your build locally.

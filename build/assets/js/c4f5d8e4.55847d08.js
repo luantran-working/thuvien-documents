@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkiit_enterprise_accounting_docs=globalThis.webpackChunkiit_enterprise_accounting_docs||[]).push([[2634],{192(i,t,n){n.r(t),n.d(t,{default:()=>r});n(6540);var c=n(6347),e=n(4848);function r(){return(0,e.jsx)(c.rd,{to:"/docs/intro"})}}}]);
