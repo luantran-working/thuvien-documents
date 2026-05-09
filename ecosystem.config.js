@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "ketoan-docs.test.iit.vn",
+      name: "thuvien-document.test.iit.vn",
       script: "npx",
       args: "serve -s build -l 3667",
       cwd: __dirname,
