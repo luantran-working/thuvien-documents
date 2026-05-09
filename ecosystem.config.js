@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "ketoan-docs.test.iit.vn",
       script: "npx",
-      args: "serve -s build -l 3664",
+      args: "serve -s build -l 3667",
       cwd: __dirname,
       interpreter: "none",
       env: {
